@@ -5,55 +5,59 @@
 
 body {
   box-sizing: border-box;
-  background-color: #FDF7FF;
   font-family: "Nunito Sans", sans-serif;
 }
 
 /*------------------navbar-----------------------*/
 
 .navbar {
-  background-color: #FDF7FF;
+  background-color: #fdf7ff;
   height: 100px;
   width: 100%;
   /* border: 1px solid green; */
   padding: 12px 40px;
 }
 
-.menu{
+.p-x-all {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.menu {
   place-content: end;
 }
 
 .menu ul {
-  padding: 0 60px;
+  margin-right: 10px;
 }
 
 .navbar-nav li a {
-  color: #431B51;
+  color: #431b51;
   font-size: 18px;
   font-weight: 450;
   float: left;
   text-align: start;
-}   
+}
 
 .contact-btn {
   border: none;
   padding: 17px 20px;
   width: 147px;
-  background-color: #431B51;
+  background-color: #431b51;
   color: #fff;
   border-radius: 5px;
   font-size: 17px;
-} 
+}
 
 .fa-bars {
-  color: #431B51;
+  color: #431b51;
   font-size: 24px;
   line-height: 0;
 }
 
 .navbar-toggler {
   outline: none;
-  background-color: #FDF7FF;
+  background-color: #fdf7ff;
   border: none;
 }
 
@@ -61,73 +65,82 @@ body {
   box-shadow: none;
 }
 
-
 /* ************Small screen***************** */
 
-@media(max-width: 768px) {
-
+@media (max-width: 767px) {
+  .p-x-all {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .navbar {
     padding: 12px 5px !important;
   }
-
+  .navbar-brand {
+    width: 143px;
+  }
   #navbarTogglerDemo03 {
     position: absolute;
-    background: #FDF7FF;
+    background: #fdf7ff;
     top: 104px;
     left: 0;
     width: 100%;
+    padding-left: 61px;
   }
 
   .navbar-nav li a {
     padding: 18px 0;
     margin-left: -31px;
   }
-
+  .text-con .ts-header {
+    margin-top: 10px;
+  }
   .menu .contact-btn {
     margin-left: 26px;
     margin-top: 15px;
   }
 
   .talent-sec {
-    flex-direction: row;
     text-align: center;
-    padding: 0 !important;
   }
 
   .ta-lent {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
-  
+
   .text-con {
-    padding-top: 70px !important; 
+    /* padding-top: 70px !important;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
   }
 
   .talent-sec .ts-header h5 {
-    font-size: 25px !important;
+    font-size: 23px !important;
+    line-height: 30px !important;
   }
 
   .text-con .tss-p {
-    font-size: 22px;
-    line-height: 33px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    max-width: 34em;
   }
 
   .img-wrap {
-    padding: 0 20px;
+    width: 100% !important;
   }
 
   /* -----------About Us--------------- */
 
   .about-us {
     background-color: #fff;
-    padding: 70px 23px !important;
   }
 
   .about-img {
-    position: relative;
-    width: 100%;  
+    width: 100%;
   }
- 
+
   .img-1 {
     position: absolute;
   }
@@ -141,16 +154,6 @@ body {
     position: absolute;
     top: 152px !important;
     left: 121px !important;
-  }
-
-  .about-text {
-    margin-left: 0 !important;
-    margin-top: 381px !important;
-    text-align: center;
-  }
-
-  .ab-header h6 {
-    font-size: 19px !important;
   }
 
   .ab-h4 {
@@ -188,6 +191,9 @@ body {
 
   /* ------Service area------- */
 
+  .border-area {
+    padding: 30px 17px !important;
+  }
   .service {
     padding: 30px 18px !important;
   }
@@ -198,38 +204,22 @@ body {
   }
 
   .s-text p {
-    font-size: 18px !important;
+    font-size: 16px !important;
     margin-top: 15px;
   }
 
   .border-area h4 {
-    font-size: 25px !important;
-    padding-left: 31px !important;
+    font-size: 22px !important;
   }
 
   .border-area p {
-    font-size: 20px;
-    padding-left: 31px;
+    font-size: 17px;
   }
 
-  .visit-btn1 {
-    position: static !important;
-    margin: 27px 0 40px 31px;
-  }
-
-  .border-area2 h4 {
-    font-size: 25px !important;
-    padding-left: 31px !important;
-  }
-
-  .border-area2 p {
-    font-size: 20px;
-    padding-left: 31px;
-  }
-
+  .visit-btn1,
   .visit-btn2 {
     position: static !important;
-    margin: 27px 0 40px 31px;
+    margin: 0;
   }
 
   .border-area3 h4 {
@@ -247,16 +237,11 @@ body {
   }
 
   .bottom-text .bottom-con {
-    padding: 10px 56px;
+    padding: 10px 30px !important;
   }
 
   .bottom-row .col-md-3 {
     border-right: none !important;
-  }  
-
-  .bottom-con .bottom-row {
-    padding: 35px 10px 35px;
-    top: -71px;
   }
 
   .col-6 p {
@@ -267,6 +252,9 @@ body {
     font-size: 20px;
   }
 
+  .bottom-text {
+    margin-top: -55px !important;
+  }
   /* -------------Benefits--------------- */
 
   .b-text h1 {
@@ -304,37 +292,17 @@ body {
     padding: 30px 4px !important;
   }
 
-
   .footer-col3 {
     margin-left: 0 !important;
   }
-
 }
 
-
-
-
-
-
-@media(max-width: 1024px) {
-
+@media (max-width: 1024px) {
   .navbar-nav li a {
     font-size: 12px !important;
   }
 
-  .text-con {
-    padding-top: 100px !important;
-  }
-
-  .ts-header {
-    margin-top: 50px !important;
-  }
-
-  .talent .talent-sec {
-    padding: 30px 60px;
-  }
-
- .ts-header h5 {
+  .ts-header h5 {
     font-size: 31px !important;
     line-height: 37px !important;
   }
@@ -345,10 +313,6 @@ body {
   }
 
   /* ------about------ */
-
-  .about {
-    padding: 150px 0 150px 25px !important;
-  }
 
   .img1 {
     width: 350px;
@@ -389,10 +353,6 @@ body {
 
   /* ----service------ */
 
-  .s-img img {
-    height: 318px;
-  }
-
   /* ---benefits--- */
 
   .benefit-row {
@@ -425,7 +385,6 @@ body {
     padding: 33px 50px !important;
   } */
 
-  
   .testimonials-text h5 {
     margin-bottom: 14px !important;
     font-size: 23px !important;
@@ -434,56 +393,49 @@ body {
   .footer-col {
     margin-right: 90px !important;
   }
-
 }
 
- 
 /************** Talent section *************/
-
+.talent {
+  background-color: #fdf7ff;
+}
 .talent-sec {
   display: flex;
   justify-content: space-between;
-  padding: 30px 60px;
   width: 100%;
 }
 
-.text-con {
-  padding-top: 120px;
-}
-
 .ts-p {
-  background-color: #FFC608;
-  display: inline;
+  background-color: #ffc608;
+  width: fit-content;
   padding: 13px 30px;
-  color: #431B51;
+  color: #431b51;
   font-size: 16px;
   border-radius: 23px;
 }
 
-.ts-header{
+.ts-header {
   margin-top: 35px;
 }
 
 .ts-header h5 {
-  font-size: 45px;
-  font-weight: 900;
-  line-height: 60px; 
-  color: #431B51;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 52px;
+  color: #431b51;
   text-wrap: nowrap;
   margin: 0;
 }
 
 .tss-p {
-  font-size: 22px;
-  color: #431B51;
-  line-height: 33px;
-  font-stretch: 50px;
-  margin-top: 26px;
+  font-size: 17px;
+  color: #431b51;
+  line-height: 28px;
+  margin-top: 17px;
 }
 
 .img-wrap {
-  width: 105%;
-  padding-top: 65px;
+  width: 41em;
 }
 
 .img-wrap img {
@@ -493,7 +445,7 @@ body {
 
 .contact-btn2 {
   padding: 18px 30px;
-  background-color: #431B51;
+  background-color: #431b51;
   color: #fff;
   border-radius: 5px;
   border: none;
@@ -505,12 +457,7 @@ body {
 .about-us {
   background-color: #fff;
   align-items: center;
-  padding: 150px 0 150px 60px;
-}
-
-.about-text {
-  margin-left: 30px;
-  margin-top: 25px;
+  padding-top: 7.7em;
 }
 
 .about-img {
@@ -529,18 +476,17 @@ body {
 }
 
 .ab-header h6 {
-  color: #431B51;
+  color: #431b51;
   line-height: 29px;
   margin-top: 13px;
   font-size: 21px;
 }
 
-
 .tta-p {
-  background-color: #FFC608;
+  background-color: #ffc608;
   display: inline-block;
   padding: 10px 30px;
-  color: #431B51;
+  color: #431b51;
   font-size: 16px;
   border-radius: 23px;
   margin-bottom: 2rem;
@@ -548,7 +494,7 @@ body {
 
 .ab-h4 {
   font-size: 45px;
-  color: #431B51;
+  color: #431b51;
   font-weight: 800;
   margin-bottom: 2rem;
 }
@@ -562,7 +508,7 @@ body {
 .ceo img {
   height: 84px;
   width: 84px;
-  border: 1px solid #431B51;
+  border: 1px solid #431b51;
   border-radius: 40px;
   padding: 5px;
 }
@@ -575,24 +521,24 @@ body {
   font-family: "Mr De Haviland", cursive;
   font-weight: 600;
   font-size: 25px;
-  color: #431B51;
+  color: #431b51;
 }
 
 .p2 {
   font-weight: 600;
   font-size: 17px;
-  color: #431B51;
+  color: #431b51;
 }
 
 .years {
   margin-left: 7px;
-  border: 1px solid #431B51;
+  border: 1px solid #431b51;
   border-radius: 5px;
   height: fit-content;
 }
 
 .ex-p {
-  background-color: #FFC608;
+  background-color: #ffc608;
   padding: 19px;
   font-size: 23px;
   font-weight: 600;
@@ -603,7 +549,9 @@ body {
 /* ----------------Service Area-------------------- */
 
 .service {
-  padding: 30px 60px;
+  margin-top: 10em;
+  background-color: #f6f7eb;
+  padding-bottom: 10em;
 }
 
 .s-text {
@@ -612,45 +560,49 @@ body {
 }
 
 .s-text h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
+  color: #431b51;
 }
 
 .s-text p {
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 400;
+  color: #5e2c6e;
 }
 
 .border-area {
-  background: #431B51;
+  background: #431b51;
   border-radius: 12px;
   position: relative;
+  padding: 30px 35px;
+  margin-bottom: 40px;
 }
 
 .service-area .hh4 {
-  padding-left: 64px;
-  color: #FFFF;
-  font-size: 40px;
+  color: #ffff;
+  font-size: 30px;
   font-weight: 700;
-  padding-top: 55px;
 }
 
 .pss-1 {
-  padding-left: 64px;
-  font-size: 20px;
-  color: #FFFCF2;
+  font-size: 14px;
+  color: #fffcf2;
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 400;
 }
 
 .s-img {
-  padding-left: 64px;
+  width: 100%;
+  /* height: 200px; */
 }
 
 .s-img img {
   border-radius: 7px;
-  padding-bottom: 53px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .visit-btn1 {
@@ -658,46 +610,40 @@ body {
   left: 110px;
   bottom: 101px;
   padding: 16px 36px;
-  background: #FFC608;
+  background: #ffc608;
   border: none;
-  color: #431B51;
+  color: #431b51;
 }
 
 .border-area2 {
-  background: #FFC608;
-  border-radius: 12px;
-  position: relative;
-  margin-top: 60px;
+  background: #ffc608;
 }
 
 .pss-2 {
   padding-left: 64px;
   font-size: 20px;
-  color: #431B51;
+  color: #431b51;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.border-area2 h4 {
-  padding-left: 64px;
-  color: #431B51;
-  font-size: 40px;
-  font-weight: 700;
-  padding-top: 55px;
+.border-area2 h4.hh4,
+.border-area2 .pss-1 {
+  color: #431b51 !important;
 }
 
 .visit-btn2 {
   position: absolute;
-  left: 86px;
+  left: 110px;
   bottom: 101px;
   padding: 16px 36px;
-  background: #431B51;
+  background: #431b51;
   border: none;
-  color: #FFC608;
+  color: #ffc608;
 }
 
 .border-area3 {
-  background: #431B51;
+  background: #431b51;
   border-radius: 12px;
   position: relative;
   margin-top: 60px;
@@ -707,8 +653,7 @@ body {
 /* ----------------bottom area--------------------- */
 
 .bottom-text {
-  background: #fff;
-  margin-top: 99px;
+  margin-top: -140px;
 }
 
 .bottom-con {
@@ -716,18 +661,16 @@ body {
 }
 
 .bottom-row {
-  background: #FDF7FF;
+  background: #fdf7ff;
   text-align: center;
   padding: 65px 10px 35px;
   border-radius: 0 0 12px 12px;
-  border-top: 9px solid #431B51;
+  border-top: 9px solid #431b51;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  position: relative;
-  top: -124px;
 }
 
 .svg-wrap {
-  background: #F8E2FF;
+  background: #f8e2ff;
   display: inline-block;
   padding: 10px;
   border-radius: 9px;
@@ -737,14 +680,13 @@ h3 {
   font-size: 32px;
   font-weight: 700;
   margin-top: 13px;
-  color: #431B51;
+  color: #431b51;
 }
 
 .col-md-3 p {
   font-size: 16px;
-  color: #431B51;
+  color: #431b51;
 }
-
 
 /* ---------------Benefits------------------- */
 
@@ -758,8 +700,8 @@ h3 {
 
 .b-text p {
   display: inline-block;
-  background: #FFC608;
-  color: #431B51;
+  background: #ffc608;
+  color: #431b51;
   padding: 8px 27px;
   border-radius: 22px;
   font-size: 19px;
@@ -769,39 +711,39 @@ h3 {
   font-weight: 800;
   font-size: 45px;
   margin-top: 15px;
-  color: #431B51;
+  color: #431b51;
 }
 
 .benefit-con {
-  background: #FCF2FF;
+  background: #fcf2ff;
   padding: 35px 31px;
   border-radius: 9px;
 }
 
 .svgs {
-  margin-bottom: 45px
+  margin-bottom: 45px;
 }
 
 .text-col h6 {
   font-size: 25px;
   font-weight: 700;
-  color: #431B51;
+  color: #431b51;
 }
 
 .text-col p {
   font-size: 20px;
-  color: #431B51;
+  color: #431b51;
   margin-top: 15px;
 }
 
 .svg-slide {
- display: none;
+  display: none;
 }
 
 /* -----------------Testimonials----------------------- */
 
 .testimonials {
-  background: #FFFCF2;
+  background: #fffcf2;
 }
 
 .testimonials-con {
@@ -821,8 +763,8 @@ h3 {
 
 .text-place p {
   display: inline-block;
-  background: #FFC608;
-  color: #431B51;
+  background: #ffc608;
+  color: #431b51;
   padding: 8px 27px;
   border-radius: 22px;
   font-size: 19px;
@@ -835,12 +777,12 @@ h3 {
 .text-body h5 {
   font-size: 41px;
   font-weight: 800;
-  color: #431B51;
+  color: #431b51;
 }
 
 .testimonials-text {
   text-wrap: balance;
-  background: #431B51;
+  background: #431b51;
   color: #fff;
   padding: 42px 0px;
   border-radius: 15px;
@@ -880,14 +822,14 @@ h3 {
 
 .p-body p {
   font-size: 40px;
-  color: #431B51;
+  color: #431b51;
   font-weight: 800;
   margin-bottom: 0;
 }
 
 .ready-btn {
   padding: 18px 30px;
-  background-color: #431B51;
+  background-color: #431b51;
   color: #fff;
   border-radius: 5px;
   border: none;
@@ -898,7 +840,7 @@ h3 {
 /* ------------------Footer-------------------- */
 
 .footer {
-  background: #431B51;
+  background: #431b51;
   color: #fff;
   padding: 30px 60px;
 }
@@ -984,4 +926,20 @@ h3 {
 
 .arr-text p {
   font-size: 19px;
+}
+@media (max-width: 992px) {
+  .about-text {
+    margin-left: 0 !important;
+    margin-top: 30px !important;
+    text-align: center;
+  }
+  .ceo {
+    justify-content: center;
+  }
+  .ab-h4 {
+    font-size: 40px;
+  }
+  .ab-header h6 {
+    font-size: 19px !important;
+  }
 }
