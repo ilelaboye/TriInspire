@@ -7,6 +7,48 @@ body {
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
 }
+.p-x-all {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.bg-primary {
+  background-color: #431b51 !important;
+}
+.btn-primary {
+  background-color: #431b51 !important;
+}
+.bg-primary-light {
+  background-color: #fcf2ff;
+}
+
+.bg-secondary-light {
+  background-color: #f6f7eb;
+}
+.text-primary {
+  color: #431b51 !important;
+}
+
+.main-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header .mh-txt,
+.mh-txt {
+  background: #ffc608;
+  color: #431b51;
+  padding: 6px 27px;
+  border-radius: 22px;
+  font-size: 12px;
+  width: fit-content;
+}
+.main-header h2 {
+  font-weight: bold;
+}
+.section-margin {
+  margin-bottom: 9em;
+}
 
 /*------------------navbar-----------------------*/
 
@@ -18,11 +60,6 @@ body {
   padding: 12px 40px;
 }
 
-.p-x-all {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
 .menu {
   place-content: end;
 }
@@ -31,22 +68,22 @@ body {
   margin-right: 10px;
 }
 
-.navbar-nav li a {
+.navbar-nav li .nav-link {
   color: #431b51;
-  font-size: 18px;
-  font-weight: 450;
-  float: left;
-  text-align: start;
+  font-size: 16px;
+  font-weight: 300;
+  /* float: left; */
+  /* text-align: start; */
 }
 
 .contact-btn {
   border: none;
-  padding: 17px 20px;
-  width: 147px;
+  padding: 13px 20px;
   background-color: #431b51;
   color: #fff;
   border-radius: 5px;
-  font-size: 17px;
+  font-size: 15px;
+  width: 124px;
 }
 
 .fa-bars {
@@ -87,7 +124,7 @@ body {
     padding-left: 61px;
   }
 
-  .navbar-nav li a {
+  .navbar-nav li .nav-link {
     padding: 18px 0;
     margin-left: -31px;
   }
@@ -256,19 +293,6 @@ body {
     margin-top: -55px !important;
   }
   /* -------------Benefits--------------- */
-
-  .b-text h1 {
-    font-size: 23px !important;
-  }
-
-  .bene-fit .row {
-    padding: 30px 20px 80px !important;
-  }
-
-  .row .slide {
-    display: none;
-  }
-
   .svg-slide {
     display: flex !important;
     justify-content: space-between;
@@ -277,20 +301,25 @@ body {
   }
 
   /* ------------Testimonial---------------- */
-  .testimonials {
-    display: none;
+  .testimonials-body {
+    flex-direction: column;
   }
-
-  .p-body p {
+  .testimonials .text-place {
+    text-align: center;
+  }
+  .testimonials .text-place h5 {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .testimonials-carousel {
+    flex-direction: column;
+  }
+  .testimonials .p-body p {
     font-size: 32px !important;
     margin-bottom: 0 !important;
   }
 
   /* ------------footer-------------- */
-
-  .footer {
-    padding: 30px 4px !important;
-  }
 
   .footer-col3 {
     margin-left: 0 !important;
@@ -298,7 +327,7 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .navbar-nav li a {
+  .navbar-nav li .nav-link {
     font-size: 12px !important;
   }
 
@@ -355,27 +384,7 @@ body {
 
   /* ---benefits--- */
 
-  .benefit-row {
-    padding: 30px 43px 105px !important;
-  }
-
-  .benefit-con {
-    padding: 35px 22px !important;
-  }
-
-  .text-col h6 {
-    font-size: 21px !important;
-  }
-
-  .text-col p {
-    font-size: 14px !important;
-  }
-
   /* ----testimonials----- */
-
-  .text-body h5 {
-    font-size: 32px !important;
-  }
 
   .testimonials-text p {
     font-size: 17px !important;
@@ -408,9 +417,9 @@ body {
 .ts-p {
   background-color: #ffc608;
   width: fit-content;
-  padding: 13px 30px;
+  padding: 9px 30px;
   color: #431b51;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 23px;
 }
 
@@ -656,88 +665,82 @@ body {
   margin-top: -140px;
 }
 
-.bottom-con {
+.bottom-text .bottom-con {
   padding: 40px 130px;
 }
 
-.bottom-row {
-  background: #fdf7ff;
+.bottom-text .bottom-row {
+  background: #f6f7eb;
   text-align: center;
-  padding: 65px 10px 35px;
+  padding: 55px 10px 35px;
   border-radius: 0 0 12px 12px;
   border-top: 9px solid #431b51;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.svg-wrap {
+.bottom-text .svg-wrap {
   background: #f8e2ff;
   display: inline-block;
   padding: 10px;
   border-radius: 9px;
 }
+/* .bottom-text .svg-wrap svg {
+  width: 30px;
+  height: 40px;
+} */
 
-h3 {
-  font-size: 32px;
+.bottom-text h3 {
+  font-size: 25px;
   font-weight: 700;
   margin-top: 13px;
   color: #431b51;
 }
 
-.col-md-3 p {
-  font-size: 16px;
+.bottom-text .col-md-3 p {
+  font-size: 13px;
   color: #431b51;
+}
+.text-bold {
+  font-weight: bold;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-11 {
+  font-size: 11px;
 }
 
 /* ---------------Benefits------------------- */
 
+.benefit-con {
+  padding: 35px 22px !important;
+  margin-top: 20px;
+  border-radius: 9px;
+  background: #fcf2ff;
+}
+
+.benefit-con .text-col h6 {
+  font-size: 21px !important;
+}
+
+.benefit-con .text-col p {
+  font-size: 14px !important;
+}
+
 .benefit {
   background: #fff;
+  margin-top: 5.5em;
 }
 
-.b-text {
-  text-align: center;
+.benefit .svgs {
+  margin-bottom: 40px;
 }
-
-.b-text p {
-  display: inline-block;
-  background: #ffc608;
-  color: #431b51;
-  padding: 8px 27px;
-  border-radius: 22px;
-  font-size: 19px;
-}
-
-.b-text h1 {
-  font-weight: 800;
-  font-size: 45px;
-  margin-top: 15px;
-  color: #431b51;
-}
-
-.benefit-con {
-  background: #fcf2ff;
-  padding: 35px 31px;
-  border-radius: 9px;
-}
-
-.svgs {
-  margin-bottom: 45px;
-}
-
-.text-col h6 {
-  font-size: 25px;
-  font-weight: 700;
-  color: #431b51;
-}
-
-.text-col p {
-  font-size: 20px;
-  color: #431b51;
-  margin-top: 15px;
-}
-
-.svg-slide {
-  display: none;
+.benefit .svgs svg {
+  width: 48px;
+  height: 48px;
 }
 
 /* -----------------Testimonials----------------------- */
@@ -745,16 +748,15 @@ h3 {
 .testimonials {
   background: #fffcf2;
 }
-
-.testimonials-con {
-  padding: 30px 14px 30px 60px;
+.testimonials-carousel {
+  display: flex;
+  align-items: start;
 }
-
 .testimonials-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  padding: 4.5em 0;
 }
 
 .text-place {
@@ -767,7 +769,6 @@ h3 {
   color: #431b51;
   padding: 8px 27px;
   border-radius: 22px;
-  font-size: 19px;
 }
 
 .text-body {
@@ -775,7 +776,7 @@ h3 {
 }
 
 .text-body h5 {
-  font-size: 41px;
+  font-size: 30px;
   font-weight: 800;
   color: #431b51;
 }
@@ -786,7 +787,6 @@ h3 {
   color: #fff;
   padding: 42px 0px;
   border-radius: 15px;
-  margin-top: 45px;
 }
 
 .testi-text {
@@ -806,10 +806,6 @@ h3 {
   font-size: 18px;
 }
 
-.testimonials-img {
-  margin-top: 48px;
-}
-
 .white {
   background: #fff;
   padding: 21px 0;
@@ -817,23 +813,24 @@ h3 {
 /* ----------------Ready------------------------- */
 .ready {
   text-align: center;
-  margin: 100px 0;
+  padding: 4em 0;
 }
 
 .p-body p {
-  font-size: 40px;
+  font-size: 34px;
   color: #431b51;
   font-weight: 800;
   margin-bottom: 0;
+  line-height: 1.5;
 }
 
 .ready-btn {
-  padding: 18px 30px;
-  background-color: #431b51;
+  padding: 13px 30px;
+  /* background-color: #431b51; */
   color: #fff;
   border-radius: 5px;
   border: none;
-  font-size: 17px;
+  font-size: 14px;
   margin-top: 35px;
 }
 
@@ -842,11 +839,12 @@ h3 {
 .footer {
   background: #431b51;
   color: #fff;
-  padding: 30px 60px;
+  /* padding: 30px 60px; */
 }
 
 .footer-img {
   margin-left: -11px;
+  width: 200px;
 }
 
 .footer-text1 {
@@ -854,7 +852,7 @@ h3 {
 }
 
 .footer-text1 p {
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .footer-nav ul {
@@ -869,16 +867,13 @@ h3 {
 .footer-nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 19px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .s-h6 h6 {
   font-size: 20px;
   font-weight: 700;
-}
-
-.footer-col {
-  margin-right: 187px;
 }
 
 .footer-con {
@@ -891,7 +886,7 @@ h3 {
 
 .contact-p p {
   color: #fff;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .contact-p a {
@@ -906,7 +901,7 @@ h3 {
 }
 
 .number {
-  font-size: 19px;
+  font-size: 16px;
   text-wrap: nowrap;
 }
 
@@ -916,8 +911,7 @@ h3 {
 
 .bottom-footer {
   display: flex;
-  margin-top: 130px;
-  margin-left: -2px;
+  margin-top: 60px;
 }
 
 .arr-img img {
@@ -925,7 +919,7 @@ h3 {
 }
 
 .arr-text p {
-  font-size: 19px;
+  font-size: 16px;
 }
 @media (max-width: 992px) {
   .about-text {
