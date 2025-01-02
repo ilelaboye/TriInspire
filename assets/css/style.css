@@ -144,8 +144,7 @@ body {
     flex-direction: column;
   }
 
-  .text-con {
-    /* padding-top: 70px !important;  */
+  .ta-lent .text-con {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -324,6 +323,200 @@ body {
   .footer-col3 {
     margin-left: 0 !important;
   }
+
+
+
+  /* -----------box--------------- */
+
+  .box-sec
+  .row
+  .pb {
+    margin-bottom: 23px;
+  }
+
+  .box .p-x-all {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  /* -----------courses------------- */
+
+  .courses .courses-title h6 {
+    font-size: 25px !important;
+  }
+
+  .courses .courses-title p {
+    font-size: 14px !important;
+  }
+
+  .courses .courses-sec .row-con {
+    margin: 36px 0 0 0 !important;
+  }
+
+  .courses .col-box .col-con {
+    padding: 33px 28px 23px 28px !important;
+  }
+
+  .courses .col-box img {
+    width: 328px !important;
+  }
+
+  .courses .col-box {
+    margin-bottom: 25px !important;
+  }
+
+  /* ---------testimonial----------- */
+
+  .testimonial-con
+  .testimonial-tittle 
+  .text-p {
+    font-size: 19px !important;
+  }
+
+  .testimonial-sec 
+  .box-con {
+    padding: 18px 11px !important;
+  }
+
+  .testimonial-sec 
+  .box-con p {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+
+  .testimonial-sec h6 {
+    font-size: 12px !important;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  /* -----------------data---------------- */
+
+  .data 
+  .data-con 
+  .data-row {
+    padding-left: 35px !important;
+    padding-top: 43px !important;
+  }
+
+  .data-row .row {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .data-row2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 55px;
+    padding-left: 30px !important;
+  }
+
+  .m-t-all {
+    margin-top: 3rem;
+  }
+
+  .data .data-text {
+    padding-left: 0px !important;
+    margin-top: 0px !important;
+  }
+
+  .data-con2 .d-text p {
+    font-size: 21px;
+  }
+
+  .data 
+  .data-con
+  .d-header, .d-header2 h6 {
+    font-size: 23px !important;
+  }
+
+  .data 
+  .data-con
+  .d-text h6 {
+    font-size: 10px !important;
+  }
+
+  .data 
+  .data-con
+  .d-text p {
+    font-size: 17px !important;
+  }
+
+  .d-course {
+    margin-top: -165px !important;
+  }
+
+  .d-course 
+  .d-course-con 
+  .d-course-text {
+    padding: 46px 10px 16px 42px !important;
+  }
+
+  .d-course 
+  .d-course-con {
+    padding: 29px 50px !important;
+  }
+
+  .d-course-text ul li {
+    font-size: 13px !important;
+  }
+
+  .d-course 
+  .d-course-con 
+  .d-course-text h5 {
+    font-size: 16px !important;
+  }
+  
+  .enrol-btn {
+    padding: 9px 22px !important;
+    font-size: 14px !important;
+    margin-top: -252px !important;
+    margin-left: 119px !important;
+  }
+
+  .enrol-btn2 {
+    padding: 9px 22px !important;
+    font-size: 14px !important;
+  }
+  
+  .banner .text-con, 
+  .banner-con2 .text-con {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    padding: 67px 28px 51px 56px !important;
+  }
+
+  .banner .banner-con, 
+  .banner2 .banner-con2{
+    padding: 247px 20px 0px 35px;
+  }
+
+  .banner-con2 {
+    min-height: 100vh !important;
+    width: 100% !important;
+    background-size: cover !important;
+    position: relative !important;
+  }
+
+  .banner-con {
+    min-height: 100vh !important;
+    width: 100% !important;
+    background-size: cover !important;
+    position: relative !important;
+  }
+
+  .text-con .bs-header h5 {
+    font-size: 28px !important;
+  }
+
+  .bss-p {
+    font-size: 17px !important;
+    width: 100% !important;
+  }
+
 }
 
 @media (max-width: 1024px) {
@@ -402,6 +595,108 @@ body {
   .footer-col {
     margin-right: 90px !important;
   }
+
+
+  /* --------------Course page-------------- */
+
+  .box .box-con {
+    padding: 26px 13px !important;
+  }
+
+  
+  .box .box-con .text-col p {
+    font-size: 15px !important;
+  }
+
+  .box .box-con2 {
+    padding: 26px 16px !important;
+  }
+
+  .box .box-con2 .text-col p {
+    margin-bottom: 39px !important;
+    font-size: 15px !important;
+  }
+
+  .courses .col-box .col-con p {
+    font-size: 12px !important;
+  }
+
+  .courses-sec .row-con {
+    margin: 36px 0 0 110px !important;
+  }
+
+  .courses .col-box img {
+    width: 300px !important;
+  }
+
+
+  .testimonial .testimonial-sec .box-con {
+    padding: 17px 20px !important;
+  }
+
+  .testimonial .testimonial-sec .box-con p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .testimonial .testimonial-sec h6 {
+    font-size: 12px !important;
+  }
+
+  /* ------------Data & Skills page -------------- */
+
+  .banner2 .banner-con2 {
+    height: 514px;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    min-height: 0 ;
+  }
+
+  .banner .banner-con {
+    height: 514px;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    min-height: 0 ;
+  }
+
+  .d-course-con {
+    padding: 48px 260px !important;
+  }
+
+  .data-container .enrol-btn {
+    margin-top: -272px;
+    margin-left: 411px;
+  }
+
+  .data-row {
+    padding-left: 92px !important;
+  }
+
+  .d-text p {
+    font-size: 19px;
+  }
+
+  .text-con {
+    padding-top: 247px !important;
+    padding-left: 70px !important;
+  }
+
+  .bs-header h5 {
+    font-size: 37px !important;
+  }
+
+  .text-con p {
+    font-size: 12px !important;
+  }
+
+  .data-text {
+    padding-left: 62px !important;
+  }
+
+  .data-con2 .d-text p {
+    font-size: 18px !important;
+  }
+
 }
 
 /************** Talent section *************/
@@ -921,6 +1216,8 @@ body {
 .arr-text p {
   font-size: 16px;
 }
+
+
 @media (max-width: 992px) {
   .about-text {
     margin-left: 0 !important;
@@ -936,4 +1233,476 @@ body {
   .ab-header h6 {
     font-size: 19px !important;
   }
+}
+
+
+
+/* -----------box---------- */
+
+.box .box-sec {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.box .box-con {
+  background: #F2D0FE;
+  padding: 30px 26px;
+  border-radius: 10px;
+}
+
+.box .box-con2 {
+  background: #F6F7EB;
+  padding: 25px 26px;
+  border-radius: 10px;
+}
+
+.box .svg-wrap {
+  background: #F6F7EB;
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 2em;
+  border-radius: 9px;
+}
+
+.box .svg-wrap2 {
+  background: #F8E2FF;
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 2em;
+  border-radius: 9px;
+}
+
+.box .box-con .text-col h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #431b51;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.box .box-con2 .text-col h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #431b51;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.box .box-con .text-col p {
+  font-size: 18px;
+  color: #431b51;
+  margin-top: 15px;
+}
+
+.box .box-con2 .text-col h6 {
+  margin-bottom: 25px;
+}
+
+.box .box-con2 .text-col p {
+  margin-bottom: 55px;
+  font-size: 18px;
+}
+
+/* ----------courses------------ */
+
+.courses .courses-sec {
+  background: #FCF2FF;
+  padding-top: 5em;
+}
+
+.courses-title {
+  text-align: center;
+}
+
+.courses .courses-title h6 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #431B51;
+}
+
+.courses .courses-title p {
+  color: #431B51;
+  font-size: 17px;
+}
+
+.courses .courses-sec .row-con {
+  margin: 36px 0 0 208px;
+  padding-bottom: 40px;
+}
+
+.courses .col-box { 
+  background: #431B51;
+  border-radius: 12px;
+}
+
+.courses .col-box .col-con {
+  padding: 33px 42px 23px 42px;
+}
+
+.courses .col-box .col-con h6 {
+  color: #fff;
+  margin-top: 35px;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.courses .col-box .col-con p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.courses .col-box img {
+  width: 360px;
+}
+
+.courses .col-box .learn-btn {
+  background: #FFC608;
+  border: none;
+  color: #431B51;
+  font-size: 15px;
+  padding: 11px 22px;
+  border-radius: 3px;
+}
+
+
+/* --------------Testimonial---------------- */
+
+.testimonial 
+.testimonial-con {
+  margin-top: 8em;
+}
+
+.testimonial 
+.testimonial-con
+.testimonial-tittle {
+  text-align: center;
+}
+
+.testimonial 
+.testimonial-con
+.testimonial-tittle h5 {
+  background: #FFC608;
+  padding: 9px 24px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.testimonial 
+.testimonial-con
+.testimonial-tittle .text-p {
+  font-size: 35px;
+  font-weight: 700;
+  color: #431B51;
+  margin-top: 12px;
+}
+
+.testimonial 
+.testimonial-con
+.testimonial-tittle p {
+  margin-bottom: 0;
+}
+
+.testimonial 
+.testimonial-sec img {
+  width: 60px;
+}
+
+.testimonial 
+.testimonial-sec h6{
+  font-size: 14px;
+}
+
+.testimonial 
+.testimonial-sec
+.testi-h6 {
+  font-weight: 700;
+}
+
+.testimonial 
+.testimonial-sec
+.box-con {
+  background: #FCF2FF;
+  border-radius: 10px;
+  padding: 17px 25px;
+  margin-top: 30px;
+}
+
+.testimonial 
+.testimonial-sec
+.box-con p {
+  color: #5E2C6E;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.svg-slide {
+  display: none;
+}
+
+
+
+/* --------------------------------DATA PAGE-------------------------------------- */
+
+.banner-con {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/assets/img/image2.png);
+  background-size: cover;
+  position: relative;
+}
+
+.banner .text-con {
+  padding-top: 313px;
+  padding-left: 88px;
+}
+
+.text-con .bs-header h5 {
+  font-size: 43px;
+  font-weight: 800;
+  line-height: 52px;
+  color: #fff;
+  text-wrap: nowrap;
+  margin: 0;
+}
+
+.bss-p {
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 28px;
+  margin-top: 17px;
+  width: 29%;
+}
+
+/* ----------------data------------- */
+
+.data-container {
+  margin-bottom: 27px;
+  padding-top: 3rem;
+}
+
+.data .data-con {
+  background: #F6F7EB;
+  height: 452px;
+  border-radius:5px;
+}
+
+.data 
+.data-con
+.d-header {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.data 
+.data-con
+.d-header h6 {
+  color: #431B51;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.data 
+.data-con
+.data-row {
+  padding-left: 184px;
+  padding-top: 61px;
+}
+
+.data 
+.data-con, .data-con2
+.d-text h6 {
+  font-size: 14px;
+  color: #5E2C6E;
+}
+
+.data 
+.data-con, .data-con2
+.d-text p {
+  font-size: 22px;
+  color: #431B51;
+  font-weight: 700;
+} 
+
+.d-course {
+  margin-top: -195px;
+}
+
+.d-course 
+.d-course-con{
+  padding: 48px 421px;
+}
+
+.d-course 
+.d-course-con
+.d-course-text {
+  padding: 48px 10px 16px 89px;
+  background-color: #431B51;
+  border-radius: 8px;
+}
+
+.d-course 
+.d-course-con
+.d-course-text h5 {
+  color: #fff;
+  font-size: 17px;
+}
+
+.d-course-text ul {
+  padding-left: 0;
+  color: #fff;
+}
+
+.d-course-text ul li {
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+  font-size: 15px;
+}
+
+.svg {
+  padding-right: 30px;
+}
+
+.enrol-btn{
+  border: none;
+  padding: 12px 25px;
+  background-color: #FFC608;
+  color: #431B51;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-top: -272px;
+  margin-left: 588px;
+}
+
+
+
+/* -----------------------------------------SKILL PAGE---------------------------------------- */
+
+.banner-con2 {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/assets/img/skills.png);
+  background-size: cover;
+  position: relative;
+}
+
+.banner2 .text-con {
+  padding-top: 313px;
+  padding-left: 88px;
+}
+
+.bs-header h5 {
+  font-size: 43px;
+  font-weight: 800;
+  line-height: 52px;
+  color: #fff;
+  text-wrap: nowrap;
+  margin: 0;
+}
+
+.banner-con2 .bss-p {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 28px;
+  margin-top: 17px;
+  width: 29%;
+}
+
+.data-skill {
+  padding-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.data-sec {
+  padding-top: 3rem;
+}
+
+.data-con2 {
+  background: #F6F7EB;
+  height: 420px;
+  border-radius:5px;
+}
+
+.data 
+.d-header2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.data 
+.d-header2 h6 {
+  color: #431B51;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.data .data-text {
+  padding-left: 102px;
+  margin-top: 42px;
+}
+
+.data-con2 a {
+  text-decoration: none;
+}
+
+.enrol-btn2{
+  border: none;
+  padding: 12px 25px;
+  background-color: #431B51;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+
+/* ------------------Enrol Page------------------------- */
+
+.enrol-img img {
+  width: 450px;
+}
+
+
+.form-sec h5 {
+  font-size: 30px;
+  color: #431B51;
+  font-weight: 700;
+}
+
+.form-label {  
+ color: #431B51;
+}
+
+.form-sec {
+  margin-top: 70px;
+}
+
+.form-con {
+  padding-right: 174px;
+}
+
+.form-control {
+  border-radius: 3px;
+  border: 1px solid #6D2786;
+}
+
+.form-select {
+  border-radius: 3px;
+  border: 1px solid #6D2786;
+}
+
+.sub-btn {
+  border: none;
+  padding: 13px 20px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 124px;
+  margin-top: 35px;
+  margin-left: 185px;
 }
