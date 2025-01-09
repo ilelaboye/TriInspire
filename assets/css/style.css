@@ -104,7 +104,7 @@ body {
 
 /* ************Small screen***************** */
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .p-x-all {
     padding-left: 15px;
     padding-right: 15px;
@@ -419,7 +419,7 @@ body {
   }
 
   .data-con2 .d-text p {
-    font-size: 21px;
+    font-size: 17px !important;
   }
 
   .data 
@@ -467,7 +467,7 @@ body {
   
   .enrol-btn {
     padding: 9px 22px !important;
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 
   .enrol-btn2 {
@@ -480,35 +480,55 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 20px;
-    padding: 67px 28px 51px 56px !important;
+    padding: 41px 28px 33px 51px !important;
   }
 
   .banner .banner-con, 
   .banner2 .banner-con2{
-    padding: 247px 20px 0px 35px;
+    padding: 116px 20px 0px 35px;
   }
 
   .banner-con2 {
-    min-height: 100vh !important;
+    min-height: 75vh !important;
     width: 100% !important;
     background-size: cover !important;
     position: relative !important;
   }
 
   .banner-con {
-    min-height: 100vh !important;
+    min-height: 75vh !important;
     width: 100% !important;
     background-size: cover !important;
     position: relative !important;
   }
 
   .text-con .bs-header h5 {
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
 
   .bss-p {
-    font-size: 17px !important;
+    font-size: 15px !important;
     width: 100% !important;
+  }
+
+
+  /* --------Enrol Page--------- */
+
+
+  .enrol {
+    padding-right: 0px;
+  }
+
+  .enrol-img img {
+    display: none;
+  }
+
+  .form-control {
+    padding: 16px;
+  }
+
+  .form-select {
+    padding: 16px;
   }
 
 }
@@ -516,19 +536,39 @@ body {
 
 
 
-@media (width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
   .ta-lent .ts-header h5 {
-    font-size: 27px !important;
+    font-size: 24px !important;
   }
 
   .ta-lent .text-con {
     padding-top: 46px !important;
     padding-left: 0px !important;
   }
+
+  .ts-p {
+    font-size: 12px !important;
+  }
    
-  .text-con p {
+  .tss-p {
     font-size: 10px !important;
+  }
+
+  .fs-12 {
+    font-size: 10px !important;
+  }
+
+  .fs-18 {
+    font-size: 15px !important;
+  }
+
+  .benefit-con {
+    padding: 35px 15px !important;
+  }
+
+  .text-body h5 {
+    font-size: 17px !important;
   }
 
   .box-sec .box-con {
@@ -548,14 +588,12 @@ body {
     padding: 26px 10px !important;
   }
 
-
-
   .d-course .d-course-con {
     padding: 48px 155px !important;
   }
 
-  .col-box .col-con p {
-    font-size: 10px !important;
+  .courses .col-box .col-con p {
+    font-size: 15px !important;
   }
 
   .row-con {
@@ -563,7 +601,7 @@ body {
   }
 
   .col-box .col-con {
-    padding: 33px 13px 23px 18px !important;
+    padding: 33px 13px 23px 15px !important;
   }
   
   .d-course .d-course-body {
@@ -579,206 +617,79 @@ body {
     font-size: 15px !important;
   }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1024px) {
-  .navbar-nav li .nav-link {
-    font-size: 12px;
-  }
-
-  .ts-header h5 {
-    font-size: 31px;
-    line-height: 37px;
-  }
-
-  .tss-p {
-    font-size: 17px;
-    text-wrap: balance;
-  }
-
-  /* ------about------ */
-
-  .img1 {
-    width: 350px;
-  }
-
-  .img-22 .img2 {
-    bottom: -433px;
-    left: 152px;
-  }
-
-  .img2 {
-    width: 300px;
-  }
-
-  .ab-header h6 {
-    font-size: 18px;
-  }
-
-  .founder {
-    margin-left: 12px;
-  }
-
-  .p1 {
-    font-size: 9px ;
-    text-wrap: nowrap;
-  }
-
-  .p2 {
-    font-size: 13px ;
-    text-wrap: nowrap;
-  }
-
-  .ex-p {
-    font-size: 14px;
-    text-wrap: nowrap;
-    padding: 16px;
-  }
-
-  /* ----service------ */
-
-  /* ---benefits--- */
-
-  /* ----testimonials----- */
-
-  .testimonials-text p {
-    font-size: 17px;
-  }
-
-  /* .testimonials-text {
-    padding: 33px 50px !important;
-  } */
-
-  .testimonials-text h5 {
-    margin-bottom: 14px;
-    font-size: 23px;
-  }
-
-  /* .footer-col {
-    margin-right: 90px;
-  } */
-
-
-  /* --------------Course page-------------- */
-
-  .box .box-wrap {
-    padding: 26px 13px;
-  }
-
   
-  .box .box-con .text-col p {
-    font-size: 15px;
-  }
-
-  .box .box-wrap2 {
-    padding: 27px 16px;
-  }
-
-  .box .box-con2 .text-col p {
-    margin-bottom: 39px;
-    font-size: 15px;
-  }
-
-  .courses .col-box .col-con {
-    padding: 33px 24px 23px 29px;
-  }
-
-  .courses .col-box .col-con p {
-    font-size: 12px;
-  }
-
-  .courses-sec .row-con {
-    margin: 36px 0 0 110px;
-  }
-
-
-  .testimonial .testimonial-sec .box-con {
-    padding: 17px 20px;
-  }
-
-  .testimonial .testimonial-sec .box-con p {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0;
-  }
-
-  .testimonial .testimonial-sec h6 {
-    font-size: 12px;
-  }
 
   /* ------------Data & Skills page -------------- */
 
   .banner2 .banner-con2 {
-    height: 514px;
     background-size: contain ;
     background-repeat: no-repeat;
-    min-height: 0 ;
+    min-height: 39vh !important;
   }
 
   .banner .banner-con {
-    height: 514px;
     background-size: contain ;
     background-repeat: no-repeat;
-    min-height: 0 ;
+    min-height: 39vh !important;
   }
 
   .d-course-con {
-    padding: 48px 260px;
+    padding: 48px 260px !important;
   }
 
   .data-row {
-    padding-left: 92px;
+    padding-left: 76px !important;
   }
 
   .d-text p {
-    font-size: 19px;
+    font-size: 19px !important;
   }
 
-  .banner, .banner2 .text-con {
-    padding-top: 247px;
-    padding-left: 70px;
+  .banner .text-con {
+    padding-top: 160px !important;
+    padding-left: 53px !important;
+  }
+
+  .banner2 .text-con {
+    padding-top: 160px !important;
+    padding-left: 53px !important;
   }
 
   .bs-header h5 {
-    font-size: 37px;
+    font-size: 32px !important;
   }
 
-  /* .text-con p {
-    font-size: 12px;
-  } */
+  .bss-p {
+    font-size: 9px !important;
+    margin-top: 0 !important;
+  } 
 
   .data-text {
-    padding-left: 62px;
+    padding-left: 33px !important;
   }
 
   .data-con2 .d-text p {
-    font-size: 18px;
+    font-size: 16px !important;
   }
 
+  .data .d-header2 h6 {
+    font-size: 27px !important;
+  }
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 
 /************** Talent section *************/
@@ -981,7 +892,6 @@ body {
 
 .s-img {
   width: 100%;
-  /* height: 200px; */
 }
 
 .s-img img {
@@ -1015,7 +925,7 @@ body {
 
 .border-area2 h4.hh4,
 .border-area2 .pss-1 {
-  color: #431b51 !important;
+  color: #431b51;
 }
 
 .visit-btn2 {
@@ -1061,10 +971,6 @@ body {
   padding: 10px;
   border-radius: 9px;
 }
-/* .bottom-text .svg-wrap svg {
-  width: 30px;
-  height: 40px;
-} */
 
 .bottom-text h3 {
   font-size: 25px;
@@ -1081,30 +987,23 @@ body {
   font-weight: bold;
 }
 .fs-18 {
-  font-size: 18px;
+  font-size: 20px;
 }
 .fs-12 {
-  font-size: 12px;
+  font-size: 15px;
 }
-.fs-11 {
+
+/* .fs-11 {
   font-size: 11px;
-}
+} */
 
 /* ---------------Benefits------------------- */
 
 .benefit-con {
-  padding: 35px 22px !important;
+  padding: 35px 22px;
   margin-top: 20px;
   border-radius: 9px;
   background: #fcf2ff;
-}
-
-.benefit-con .text-col h6 {
-  font-size: 21px !important;
-}
-
-.benefit-con .text-col p {
-  font-size: 14px !important;
 }
 
 .benefit {
@@ -1542,7 +1441,7 @@ body {
   padding-left: 88px;
 }
 
-.text-con .bs-header h5 {
+.bs-header h5 {
   font-size: 43px;
   font-weight: 800;
   line-height: 52px;
@@ -1682,14 +1581,14 @@ body {
   padding-left: 88px;
 }
 
-.bs-header h5 {
+/* .bs-header h5 {
   font-size: 43px;
   font-weight: 800;
   line-height: 52px;
   color: #fff;
   text-wrap: nowrap;
   margin: 0;
-}
+} */
 
 .banner-con2 .bss-p {
   font-size: 17px;
@@ -1750,10 +1649,13 @@ body {
 
 /* ------------------Enrol Page------------------------- */
 
+.enrol {
+  padding-right: 267px;
+}
+
 .enrol-img img {
   width: 450px;
 }
-
 
 .form-sec h5 {
   font-size: 30px;
@@ -1767,10 +1669,6 @@ body {
 
 .form-sec {
   margin-top: 70px;
-}
-
-.form-con {
-  padding-right: 174px;
 }
 
 .form-control {
@@ -1787,9 +1685,37 @@ body {
   border: none;
   padding: 13px 20px;
   color: #fff;
+  background: #431B51;
   border-radius: 5px;
   font-size: 15px;
   width: 124px;
   margin-top: 35px;
-  margin-left: 185px;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-body h6 {
+  font-size: 1.4rem;
+  color: #431B51;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.modal-body p {
+  font-size: 15px;
+  color: #431B51;
+  margin-top: 13px;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-btn {
+  border: none;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
 }
