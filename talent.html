@@ -30,7 +30,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-collapse navbar-expand-md">
+    <nav class="navbar navbar-collapse navbar-expand-md bg-white">
       <div class="container-fluid nav-bar">
         <a class="navbar-brand" href="#">
           <img src="assets/img/logo.png" class="w-100" />
@@ -43,6 +43,7 @@
           aria-controls="navbarTogglerDemo03"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style="background-color: #fff;"
         >
           <i class="fa fa-bars"></i>
         </button>
@@ -62,37 +63,289 @@
               <a class="nav-link" href="#">Workplace Clinic</a>
             </li>
           </ul>
-          <button class="btn btn-primary contact-btn">Contact us</button>
+          <a href="./contact.html">
+            <button class="btn btn-primary contact-btn">Contact us</button>
+          </a>
         </div>
       </div>
     </nav>
     
-    <section class="talent pt-5">
+    <section class="talent-wrapper">
       <div class="talent-sec container-fluid p-x-all">
         <div
           class="ta-lent d-flex align-items-center justify-content-between w-100 pb-5"
         >
-          <div class="text-con">
-            <p class="ts-p">Tech skill. Find talent. Get hired.</p>
-            <div class="ts-header">
+          <div class="text-wrap">
+            <p class="ta-p">Tech skill. Find talent. Get hired.</p>
+            <div class="header-wrap">
               <h5>Recruit top</h5>
               <h5>talents, Secure your</h5>
               <h5>dream job</h5>
             </div>
-            <p class="tss-p">
+            <p class="taa-p">
               Birth your aspirations into reality with our elite hiring process.
             </p>
-            <button class="btn btn-primary contact-btn2">Hire a talent</button>
+            <button class="btn btn-primary hire-btn">Hire a talent</button>
+
+            <button class="btn btn-secondary hire-btn2">Get hired</button>
           </div>
-          <div class="img-wrap">
+          <div class="img-con">
             <img src="assets/img/Group46.png" alt="" />
           </div>
         </div>
       </div>
     </section>
 
+    <section class="why p-x-all ">
+      <div class="why-wrapper">
+        <div class="why-header">
+          <h6>
+            Conventional approaches to business consulting and talent sourcing are outdated. Why TriInspire?
+          </h6>
+          <p>
+            TriInspire leverages a unique blend of established practices and cutting-edge technologies to propel businesses toward unparalleled growth and success.
+          </p>
+        </div>
+
+        <div class="row px-5 ptb"> 
+          <div class="col-md-4 pb">
+            <div class="box-wrapper">
+              <div class="svg-con">
+                <svg width="25" height="25" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.7273 4.77273L16.7045 13.5227L25.4545 17.5L16.7045 21.4773L12.7273 30.2273L8.75 21.4773L0 17.5L8.75 13.5227L12.7273 4.77273ZM12.7273 12.4568L11.1364 15.9091L7.68409 17.5L11.1364 19.0909L12.7273 22.5432L14.3182 19.0909L17.7705 17.5L14.3182 15.9091L12.7273 12.4568ZM28.6364 12.7273L26.6318 8.36818L22.2727 6.36364L26.6318 4.375L28.6364 0L30.625 4.375L35 6.36364L30.625 8.36818L28.6364 12.7273ZM28.6364 35L26.6318 30.6409L22.2727 28.6364L26.6318 26.6477L28.6364 22.2727L30.625 26.6477L35 28.6364L30.625 30.6409L28.6364 35Z" fill="#431B51"/>
+                </svg>
+              </div>
+              <div class="box-text">
+                <p class="bt-p">
+                  Co-creation
+                </p>
+
+                <p class="bt-p2">
+                  Co-creating customized solutions 
+                  tailored to your unique business challenges and goals.
+                </p>
+              </div>
+            </div>
+          </div>  <!---End box-->
+  
+          <div class="col-md-4 pb">
+            <div class="box-wrapper2 ">
+              <div class="svg-con2">
+                <svg width="25" height="25" viewBox="0 0 29 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.6667 1C6.22375 1 1 6.16979 1 12.5485C1 14.7258 1.60813 16.7631 2.66688 18.5M17.7708 14.125V17.0417M22.1458 14.125V17.0417M17.7708 2.45833V5.375M22.1458 2.45833V5.375M15.5833 7.5625H12.6667M15.5833 11.9375H12.6667M27.25 7.5625H24.3333M27.25 11.9375H24.3333M17.0417 25.7917L16.8521 26.7352C16.6479 27.7662 16.5444 28.281 16.3125 28.6894C15.9552 29.3187 15.3767 29.7928 14.6894 30.0194C14.2446 30.1667 13.7167 30.1667 12.6667 30.1667C11.6167 30.1667 11.0888 30.1667 10.644 30.0208C9.95641 29.7939 9.37786 29.3193 9.02083 28.6894C8.78896 28.281 8.68542 27.7662 8.48125 26.7352L8.29167 25.7917M21.4167 5.375H18.5C17.1248 5.375 16.4379 5.375 16.0106 5.80229C15.5833 6.22958 15.5833 6.91646 15.5833 8.29167V11.2083C15.5833 12.5835 15.5833 13.2704 16.0106 13.6977C16.4379 14.125 17.1248 14.125 18.5 14.125H21.4167C22.7919 14.125 23.4788 14.125 23.906 13.6977C24.3333 13.2704 24.3333 12.5835 24.3333 11.2083V8.29167C24.3333 6.91646 24.3333 6.22958 23.906 5.80229C23.4788 5.375 22.7919 5.375 21.4167 5.375ZM5.93354 23.0179C5.79937 22.6154 5.73229 22.4127 5.73958 22.2494C5.74783 22.0805 5.80484 21.9176 5.9037 21.7804C6.00257 21.6433 6.13906 21.5377 6.29667 21.4765C6.44833 21.4167 6.66125 21.4167 7.08417 21.4167H18.2492C18.6735 21.4167 18.885 21.4167 19.0367 21.475C19.1945 21.5363 19.3311 21.6421 19.43 21.7796C19.5289 21.917 19.5858 22.0802 19.5938 22.2494C19.601 22.4127 19.534 22.614 19.3998 23.0179C19.1519 23.7631 19.0279 24.1365 18.8369 24.4383C18.4373 25.0692 17.8109 25.5228 17.0869 25.7056C16.7398 25.7917 16.349 25.7917 15.5658 25.7917H9.7675C8.98438 25.7917 8.59208 25.7917 8.24646 25.7042C7.52263 25.5217 6.89632 25.0687 6.49646 24.4383C6.30542 24.1365 6.18146 23.7631 5.93354 23.0179Z" stroke="#431B51" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                  
+              </div>
+              <div class="box-text2">
+                <p class="bs-p1">
+                  Innovation
+                </p>
+                <p class="bs-p2">
+                  At the core of everything we do.
+                </p>
+                <p class="bs-p3">
+                  We continuously explore new ideas and technologies to ensure that your business stays ahead of the curve in an ever-changing market.
+                </p>
+              </div>
+            </div>
+          </div> <!-- End box-->
+  
+          <div class="col-md-4 pb">
+            <div class="box-wrapper">
+              <div class="svg-con">
+                <svg width="25" height="25" viewBox="0 0 27 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.382294 9.20856L12.6979 0.998148C12.9376 0.838258 13.2192 0.75293 13.5073 0.75293C13.7954 0.75293 14.077 0.838258 14.3167 0.998148L26.6323 9.20856V29.6252C26.6323 30.012 26.4787 30.3829 26.2052 30.6564C25.9317 30.9299 25.5607 31.0836 25.174 31.0836H1.84063C1.45385 31.0836 1.08292 30.9299 0.80943 30.6564C0.535939 30.3829 0.382294 30.012 0.382294 29.6252V9.20856ZM3.29896 10.769V28.1669H23.7156V10.769L13.5073 3.96294L3.29896 10.769ZM13.5073 15.0419C12.7337 15.0419 11.9919 14.7346 11.4449 14.1876C10.8979 13.6406 10.5906 12.8988 10.5906 12.1252C10.5906 11.3517 10.8979 10.6098 11.4449 10.0628C11.9919 9.51586 12.7337 9.20856 13.5073 9.20856C14.2808 9.20856 15.0227 9.51586 15.5697 10.0628C16.1167 10.6098 16.424 11.3517 16.424 12.1252C16.424 12.8988 16.1167 13.6406 15.5697 14.1876C15.0227 14.7346 14.2808 15.0419 13.5073 15.0419Z" fill="#431B51"/>
+                </svg> 
+              </div>
+              <div class="box-text">
+                <p class="btt-p">
+                  Affordable and cost-effective pricing
+                </p>
+                <p class="btt-p2">
+                  Enjoy premium services without breaking the bank.
+                </p>
+              </div>
+            </div>
+          </div> <!-- End box-->
+        </div>
+      </div>
+    </section>
 
 
+    <section class="details p-x-all">
+      <div class="details-con">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-header">
+              <h4>
+                Are you a skilled <br>professional seeking new <br>opportunities? Start your <br> application process today.
+              </h4>
+            </div>
+            <div class="d-img">
+              <img src="./assets/img/Rectangle311.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-container">
+              <form class="application-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="first-name" >
+                  </div>
+                  <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last-name">
+                  </div>
+                </div>
+    
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                  </div>
+                  <div class="form-group">
+                      <label for="phone-number">Phone number</label>
+                      <input type="tel" id="phone-number" name="phone-number">
+                  </div>
+                </div>
+    
+                <div class="form-group">
+                  <label for="country">Country</label>
+                  <input type="text" id="country" name="country">
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="position">Position you're applying for</label>
+                        <input type="text" id="position" name="position">
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Years of experience</label>
+                        <input type="number" id="experience" name="experience">
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="current-salary">Current salary</label>
+                        <input type="text" id="current-salary" name="current-salary">
+                    </div>
+                    <div class="form-group">
+                        <label for="expected-salary">Expected salary</label>
+                        <input type="text" id="expected-salary" name="expected-salary">
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn profile</label>
+                    <input type="url" id="linkedin" name="linkedin">
+                </div>
+    
+                <div class="form-group">
+                    <label for="cv">Upload CV (Only PDF format)</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf">
+                </div>
+    
+                <div class=" checkbox-group">
+                    <input type="checkbox" id="consent" name="consent">
+                    <label for="consent">I consent to the terms and conditions.</label>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="submit-btn">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sac p-x-all">
+      <div class="sac-img">
+        <img src="./assets/img/sac.png" alt="">
+      </div>
+      <button class="call-btn">Schedule a call</button>
+    </div>
+
+    <section class="footer p-x-all">
+      <div class="container-fluid px-0 pt-5">
+        <div class="row">
+          <div class="col-md-5 footer-col">
+            <div class="footer-con1">
+              <div class="footer-img">
+                <img src="assets/img/TRII 1.png" class="w-100" />
+              </div>
+              <div class="footer-text1">
+                <p>
+                  Empowering individuals and businesses to achieve sustainable
+                  goals through innovative technologies. TriInspire aim at
+                  connecting you with top talents needed to scale your business.
+                  <br />
+                  <br />
+                  Building dream project teams, one connection at a time
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-con">
+              <div class="s-h6">
+                <h6>Services</h6>
+              </div>
+              <div class="footer-nav">
+                <ul>
+                  <li class="footer-item">
+                    <a href="#">Data Analytics</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#">Soft Skills</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#">Get hired</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#">Hire a Talent</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="#">Workplace Clinic</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 footer-col3">
+            <div class="footer-con">
+              <div class="contact-h6">
+                <h6>Contact us</h6>
+              </div>
+              <div class="contact-p">
+                <p>
+                  1 Olusesi Osanyi Street, <br />
+                  AIT Road, Kola, Lagos.
+                  <br />
+                  <br />
+                  <a href="email">triinspiretechltd@gmail.com</a>
+                </p>
+                <div class="number">
+                  +2348155752880, +2348146089572, <br />
+                  +2348056536066.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <div class="arr-img">
+            <img src="./assets/img/ARR 1.png" alt="" />
+          </div>
+          <div class="arr-text">
+            <p>Triinspire 2024. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
