@@ -785,9 +785,94 @@ body {
     max-width: 15em !important;
   }
 
+
+
+
+  .who {
+    text-align: center !important;
+    padding-bottom: 1em !important;
+  }
+
+  .who p {
+    font-size: 18px !important;
+    margin-top: 20px !important;
+  }
+
+  .why-t-text {
+    text-align: center !important;
+    padding: 5em 0 !important;
+  }
+
+  .why-t-text h3 {
+    margin-top: 1.5em !important;
+    width: 100% !important;
+  }
+
+  .why-t-text p {
+    font-size: 18px !important;
+    width: 100% !important;
+    margin-top: 2em !important;
+  }
   
+  .why-t-img img {
+    width: 95% !important;
+    margin-top: 1.5em !important;
+  }
 
+  .left {
+    padding: 0 !important;
+  }
 
+  .left-side {
+    padding: 36px 0 !important;
+  }
+
+  .left-con {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 42px;
+    margin-left: 0 !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-text h6 {
+    font-size: 24px !important;
+    margin-top: 21px;
+  }
+
+  .left-text p {
+    width: 80% !important;
+    font-size: 14px !important;
+  }
+
+  .need {
+    margin-bottom: 0 !important;
+  }
+
+  .need-text h1 {
+    font-size: 28px !important;
+  }
+
+  .need-text p {
+    font-size: 16px !important;
+    width: 83% !important;
+  }
+
+  .need-text h5 {
+    font-size: 20px !important;
+  }
+
+  .left-con:hover {
+    margin: 0 22px !important;
+  }
 
 }
 
@@ -890,15 +975,11 @@ body {
   /* ------------Data & Skills page -------------- */
 
   .banner2 .banner-con2 {
-    background-size: contain ;
-    background-repeat: no-repeat;
-    min-height: 39vh !important;
+   height: 0 !important;
   }
 
   .banner .banner-con {
-    background-size: contain ;
-    background-repeat: no-repeat;
-    min-height: 39vh !important;
+    height: 0 !important;
   }
 
   .d-course-con {
@@ -1102,6 +1183,39 @@ body {
     gap: 0 !important;
   }
 
+  .who {
+    padding-bottom: 5em !important;
+  }
+
+  .why-t-text h3 {
+    font-size: 23px !important;
+    width: 100% !important;
+  }
+
+  .why-t-text p {
+    width: 100% !important;
+  }
+
+  .why-t-img img {
+    width: 100% !important;
+  }
+
+  .left-text p {
+    width: 98% !important;
+  }
+
+  .need-text p {
+    font-size: 15px !important;
+    width: 63% !important;
+  }
+
+  .need-text h5 {
+    font-size: 17px !important;
+  }
+
+  .left-side {
+    padding: 27px 14px 36px 20px !important;
+  }
 }
 
 
@@ -1141,7 +1255,7 @@ body {
 }
 
 .ts-header h5 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 800;
   line-height: 52px;
   color: #431b51;
@@ -1201,7 +1315,7 @@ body {
   color: #431b51;
   line-height: 29px;
   margin-top: 13px;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .tta-p {
@@ -1215,9 +1329,9 @@ body {
 }
 
 .ab-h4 {
-  font-size: 45px;
+  font-size: 40px;
   color: #431b51;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 2rem;
 }
 
@@ -1261,8 +1375,8 @@ body {
 
 .ex-p {
   background-color: #ffc608;
-  padding: 19px;
-  font-size: 23px;
+  padding: 19px 20px;
+  font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
   margin-bottom: 0 !important;
@@ -1865,7 +1979,7 @@ body {
 /* --------------------------------DATA PAGE-------------------------------------- */
 
 .banner-con {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   background-image: url(/assets/img/image2.png);
   background-size: cover;
@@ -1878,7 +1992,7 @@ body {
 }
 
 .bs-header h5 {
-  font-size: 43px;
+  font-size: 35px;
   font-weight: 800;
   line-height: 52px;
   color: #fff;
@@ -2005,7 +2119,7 @@ body {
 /* -----------------------------------------SKILL PAGE---------------------------------------- */
 
 .banner-con2 {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   background-image: url(/assets/img/skills.png);
   background-size: cover;
@@ -2016,8 +2130,6 @@ body {
   padding-top: 313px;
   padding-left: 88px;
 }
-
-
 
 .banner-con2 .bss-p {
   font-size: 17px;
@@ -2126,7 +2238,7 @@ body {
 option {
   background-color: #606060;
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -2252,7 +2364,7 @@ option {
 }
 
 .box-wrapper {
-  background: #fff;
+  background: #fef9ff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2264,6 +2376,17 @@ option {
 
 .box-wrapper2 {
   background: #431B51;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 358px;
+  padding: 21px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.box-wrapper3 {
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2310,12 +2433,12 @@ option {
 }
 
 .bt-p {
-  color: #431B51;
+  color: #cbb7d2;
   font-size: 15px;
 }
 
 .bt-p2 {
-  color: #431B51;
+  color: #cbb7d2;
 }
 
 .btt-p {
@@ -2503,6 +2626,7 @@ input:focus {
 
 .contact-con {
   padding-top: 22px;
+  padding-bottom: 54px;
 }
 
 .info-text h1 {
@@ -2795,3 +2919,160 @@ input, textarea {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
 } */
+
+
+
+
+
+
+/* -------------WHY PAGE--------- */
+
+.why-banner img {
+  margin-top: 20px;
+  width: 100%;
+  background-size: cover;
+}
+
+.who {
+  padding-top: 5em;
+  padding-bottom: 8em;
+}
+
+.who h3 {
+  font-weight: 700;
+  color: #431B51;
+}
+
+.who p {
+  font-size: 14px;
+  color: #431B51;
+}
+
+
+.why-t {
+  background: #f6f4f4;
+}
+
+.why-t-text {
+  padding-top: 5em;
+}
+
+.why-t-text span {
+  background: #FFC608;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.why-t-text h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #431B51;
+  margin-top: 2em;
+  width: 70%;
+}
+
+.why-t-text p {
+  color: #5E2C6E;
+  font-size: 13px;
+  width: 71%;
+  margin-top: 2em;
+}
+
+.why-t-img img {
+  width: 72%;
+  margin-top: 1.3em;
+}
+
+.left-side {
+  background: #431B51;
+  padding: 27px 5px 36px 20px;
+}
+
+.left-con {
+  padding-top: 2em;
+}
+
+.left-con svg {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.left-text {
+  margin-left: 20px;
+}
+
+.left-text h6 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 18px;
+}
+
+.left-text p {
+  width: 85%;
+  font-size: 14px;
+  color: #f9f9f9;
+}
+
+.left-con:hover {
+  background: #fff;
+  border-radius: 10px;
+  color: #431B51;
+  margin-right: 13px;
+}
+
+.left-con:hover h6{
+  color: #431B51;
+}
+
+.left-con:hover p {
+  color: #5E2C6E;
+}
+
+
+
+.need {
+  text-align: center;
+  padding: 4em 0;
+  background: #FDF8FF;
+  margin: 6em 0;
+}
+
+.need-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.need-text h1 {
+  font-size: 32px;
+  color: #431b51;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.5;
+
+}
+
+.need-text p {
+  font-size: 13px;
+  color: #5E2C6E;
+  width: 32%;
+  margin-top: 20px;
+}
+
+.need-text h5 {
+  font-size: 14px;
+  color: #431B51;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.ready-btn {
+  padding: 13px 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  margin-top: 35px;
+}
