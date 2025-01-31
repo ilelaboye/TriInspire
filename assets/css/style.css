@@ -330,6 +330,10 @@ body {
     margin-bottom: 0 !important;
   }
 
+  .p-body p {
+    font-size: 34px !important;
+  }
+
   /* ------------footer-------------- */
 
   .footer-col3 {
@@ -500,21 +504,25 @@ body {
   .banner .banner-con, 
   .banner2 .banner-con2{
     padding: 116px 20px 0px 35px;
+    height: 75vh !important;
+    width: 100% !important;
+    background-size: cover !important;
+    position: relative !important;
   }
 
-  .banner-con2 {
-    min-height: 75vh !important;
+  /* .banner-con2 {
+    height: 75vh !important;
     width: 100% !important;
     background-size: cover !important;
     position: relative !important;
   }
 
   .banner-con {
-    min-height: 75vh !important;
+    height: 75vh !important;
     width: 100% !important;
     background-size: cover !important;
     position: relative !important;
-  }
+  } */
 
   .text-con .bs-header h5 {
     font-size: 24px !important;
