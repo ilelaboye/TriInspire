@@ -510,20 +510,6 @@ body {
     position: relative !important;
   }
 
-  /* .banner-con2 {
-    height: 75vh !important;
-    width: 100% !important;
-    background-size: cover !important;
-    position: relative !important;
-  }
-
-  .banner-con {
-    height: 75vh !important;
-    width: 100% !important;
-    background-size: cover !important;
-    position: relative !important;
-  } */
-
   .text-con .bs-header h5 {
     font-size: 24px !important;
   }
@@ -1030,11 +1016,11 @@ body {
   /* ------------Data & Skills page -------------- */
 
   .banner2 .banner-con2 {
-   height: 0 !important;
+   height: 420px !important;
   }
 
   .banner .banner-con {
-    height: 0 !important;
+    height: 420px !important;
   }
 
   .d-course-con {
@@ -1069,7 +1055,7 @@ body {
   } 
 
   .data-text {
-    padding-left: 33px !important;
+    padding-left: 47px !important;
   }
 
   .data-con2 .d-text p {
