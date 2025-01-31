@@ -124,7 +124,7 @@ body {
   #navbarTogglerDemo03 {
     position: absolute;
     background: #fdf7ff;
-    top: 104px;
+    top: 95px;
     left: 0;
     width: 100%;
     padding-left: 61px;
@@ -138,9 +138,9 @@ body {
     margin-top: 10px;
   }
   .menu .contact-btn {
-    margin-left: 26px;
+    margin-left: -31px;
     margin-top: 15px;
-    margin-bottom: 0 !important;
+    margin-bottom: 71px !important;
   }
 
   .talent-sec {
@@ -609,6 +609,10 @@ body {
     margin-top: 30px !important;
   }
 
+  .box-wrapper3 {
+    margin-top: 30px !important;
+  }
+
   .ptb {
     padding-top: 0 !important;
     padding-bottom: 3rem !important;
@@ -636,26 +640,69 @@ body {
     margin-top: 50px !important;
   }
 
-  .sac-img img {
+  .secure {
+    padding-top: 0 !important;
+  }
+
+  .secure-con {
     width: 100% !important;
-    margin-top: -9px !important;
+    border-radius: 0 !important;
+    padding: 0 !important; 
+    margin-top: 0 !important;
   }
 
-  .sac{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  .hire-con {
+    width: 100% !important;
+    border-radius: 0 !important;
+    padding: 0 !important; 
+    margin-top: 0 !important;
   }
 
-  .sac {
-    padding-bottom: 0 !important;
+  .secure-header h6 {
+    font-size: 25px !important;
   }
+
+  .secure-header p {
+    font-size: 12px !important;
+  }
+
+  .s-img1 {
+    width: 67px !important;
+    margin-top: 60px !important;
+  }
+
+  .s-img2 {
+    width: 67px !important;
+    margin-bottom: 37px !important;
+  }
+
 
   .call-btn {
     padding: 8px 19px !important;
-    right: 171px !important;
-    margin-top: -104px !important;
-    position: absolute !important;
     font-size: 9px !important;
+    border-radius: 1px;
+  }
+
+  .left-word {
+    display: none;
+  }
+
+  .right-word {
+    display: none;
+  }
+
+  .s-wrap {
+  padding-bottom: 15px;
+}
+
+  .under {
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  .under2 {
+    width: 100% !important;
+    border-radius: 0 !important;
   }
 
   .info-text h1 {
@@ -1093,17 +1140,35 @@ body {
     width: 100% !important;
   }
 
-  .sac-img img {
-    width: 100% !important;
-    margin-top: -55px !important;
+  .secure-con {
+    width: 77% !important;
   }
 
+  .hire-con {
+    width: 77% !important;
+  }
+
+  .right-word {
+    right: 17px !important;
+    margin-bottom: 260px !important;
+  }
+
+  .left-word {
+    left: 73px !important;
+    margin-bottom: 85px !important;
+  }
+
+  .under {
+    width: 68% !important;
+  }
+
+  .under2 {
+    width: 63% !important;
+  }
+  
   .call-btn {
-    padding: 14px 27px !important;
-    right: 311px !important;
-    margin-top: -152px !important;
+    padding: 12px 27px !important;
   }
-
 
   .info-text p {
     width: 100% !important;
@@ -2576,21 +2641,39 @@ input:focus {
   background: #F6F7EB;
   width: 55%;
   border-radius: 10px;
-  padding: 53px;
+  padding: 58px 51px 13px 51px;
   position: relative;
+  z-index: 3;
+  margin-top: -123px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hire-con {
+  background: #F6F7EB;
+  width: 55%;
+  border-radius: 10px;
+  padding: 58px 51px 13px 51px;
+  position: relative;
+  z-index: 3;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .secure-header {
   text-align: center;
+  margin-top: 57px;
 }
 
 .secure-header h6 {
   font-size: 30px;
   font-weight: 700;
+  color: #431B51;
 }
 
 .secure-header p {
   font-size: 15px;
+  color: #4B1F5A;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .s-wrap {
@@ -2600,28 +2683,54 @@ input:focus {
 }
 
 .s-img1 {
-  width: 11%;
+  width: 92px;
   margin-top: 60px;
 }
 
 .s-img2 {
-  width: 11%;
-  margin-bottom: 47px;
+  width: 92px;
+  margin-bottom: 97px;
 }
 
 .under {
   width: 50%;
   height: 25px;
+  z-index: 2;
   border-radius: 10px;
   background: #562169;
   margin-top: -7px;
 }
 .under2 {
-  width: 35%;
-  height: 25px;
+  width: 46%;
+  height: 23px;
+  z-index: 1;
   border-radius: 10px;
   background: #6D2786;
   margin-top: -7px;
+}
+
+.left-word {
+  background: #ffffff;
+  padding: 9px 23px;
+  position: absolute;
+  left: 289px;
+  margin-bottom: 85px;
+  border-radius: 2px;
+  font-size: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  z-index: 4;
+}
+
+.right-word {
+  background: #ffffff;
+  padding: 9px 23px;
+  position: absolute;
+  border-radius: 2px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  z-index: 4;
+  font-size: 14px;
+  right: 236px;
+  margin-bottom: 255px;
 }
 
 .contact-con {
