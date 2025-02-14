@@ -350,12 +350,11 @@ body {
     margin-bottom: 23px;
   }
 
-  .box .p-x-all {
-    padding-left: 17px;
-    padding-right: 17px;
-  }
-
   /* -----------courses------------- */
+
+  .courses {
+    padding: 0 15px !important;
+  }
 
   .courses .courses-title h6 {
     font-size: 25px !important;
@@ -400,8 +399,17 @@ body {
     font-size: 12px !important;
   }
 
-  .slide {
+  .none {
     display: none;
+  }
+
+  .sr-only {
+    background: #431B51;
+    
+  }
+
+  .carousel {
+    display: contents !important;
   }
 
   /* -----------------data---------------- */
@@ -962,7 +970,6 @@ body {
     font-size: 17px !important;
   }
 
-
   .box-con .text-col p {
     font-size: 12px !important;
   }
@@ -971,31 +978,12 @@ body {
     font-size: 12px !important;
   }
 
-
-  .d-course .d-course-con {
-    padding: 48px 155px !important;
+  .courses .col-box .col-con {
+    padding: 20px !important;
   }
 
   .courses .col-box .col-con p {
-    font-size: 9px !important;
-  }
-
-  .courses-wrapper {
-    display: flex;
-    justify-content: center;
-    padding-left: 128px;
-  }
-
-  .row-con {
-    margin: 0 !important;
-  }
-
-  .col-box .col-con {
-    padding: 33px 13px 23px 15px !important;
-  }
-  
-  .d-course .d-course-body {
-    padding: 48px 10px 16px 60px !important;
+    font-size: 13px !important;
   }
 
   .testimonial-sec .box-con {
@@ -1890,8 +1878,11 @@ body {
 
 /* ----------courses------------ */
 
-.courses .courses-sec {
+.courses {
   background: #FCF2FF;
+}
+
+.courses .courses-sec {
   padding-top: 5em;
 }
 
@@ -1911,8 +1902,11 @@ body {
 }
 
 .courses .courses-sec .row-con {
-  margin: 36px 0 0 208px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 40px;
+  margin-right: 0;
 }
 
 .courses .col-box { 
@@ -1921,14 +1915,18 @@ body {
 }
 
 .courses .col-box .col-con {
-  padding: 33px 30px 23px 42px;
+  padding: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 572px;
 }
 
 .courses .col-box .col-con h6 {
   color: #fff;
   margin-top: 35px;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .courses .col-box .col-con p {
@@ -3178,4 +3176,9 @@ input, textarea {
   border: none;
   font-size: 14px;
   margin-top: 35px;
+}
+
+
+.carousel {
+  display: none;
 }
