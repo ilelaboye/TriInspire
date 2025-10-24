@@ -102,12 +102,7 @@ body {
   box-shadow: none;
 }
 
-
-
-
 /* ************Small screen***************** */
-
-
 
 @media (max-width: 600px) {
   .p-x-all {
@@ -340,13 +335,9 @@ body {
     margin-left: 0 !important;
   }
 
-
-
   /* -----------box--------------- */
 
-  .box-sec
-  .row
-  .pb {
+  .box-sec .row .pb {
     margin-bottom: 23px;
   }
 
@@ -378,19 +369,15 @@ body {
 
   /* ---------testimonial----------- */
 
-  .testimonial-con
-  .testimonial-tittle 
-  .text-p {
+  .testimonial-con .testimonial-tittle .text-p {
     font-size: 19px !important;
   }
 
-  .testimonial-sec 
-  .box-con {
+  .testimonial-sec .box-con {
     height: 266px !important;
   }
 
-  .testimonial-sec 
-  .box-con p {
+  .testimonial-sec .box-con p {
     font-size: 12px !important;
     line-height: 20px !important;
   }
@@ -404,8 +391,7 @@ body {
   }
 
   .sr-only {
-    background: #431B51;
-    
+    background: #431b51;
   }
 
   .carousel {
@@ -414,9 +400,7 @@ body {
 
   /* -----------------data---------------- */
 
-  .data 
-  .data-con 
-  .data-row {
+  .data .data-con .data-row {
     padding-left: 35px !important;
     padding-top: 43px !important;
   }
@@ -446,21 +430,16 @@ body {
     font-size: 17px !important;
   }
 
-  .data 
-  .data-con
-  .d-header, .d-header2 h6 {
+  .data .data-con .d-header,
+  .d-header2 h6 {
     font-size: 23px !important;
   }
 
-  .data 
-  .data-con
-  .d-text h6 {
+  .data .data-con .d-text h6 {
     font-size: 10px !important;
   }
 
-  .data 
-  .data-con
-  .d-text p {
+  .data .data-con .d-text p {
     font-size: 17px !important;
   }
 
@@ -468,14 +447,11 @@ body {
     margin-top: -165px !important;
   }
 
-  .d-course 
-  .d-course-con 
-  .d-course-body {
+  .d-course .d-course-con .d-course-body {
     padding: 46px 10px 16px 42px !important;
   }
 
-  .d-course 
-  .d-course-con {
+  .d-course .d-course-con {
     padding: 29px 50px !important;
   }
 
@@ -483,12 +459,10 @@ body {
     font-size: 13px !important;
   }
 
-  .d-course 
-  .d-course-con 
-  .d-course-text h5 {
+  .d-course .d-course-con .d-course-text h5 {
     font-size: 16px !important;
   }
-  
+
   .enrol-btn {
     padding: 9px 22px !important;
     font-size: 12px !important;
@@ -500,8 +474,8 @@ body {
     font-size: 14px !important;
     margin-bottom: 0 !important;
   }
-  
-  .banner .text-con, 
+
+  .banner .text-con,
   .banner-con2 .text-con {
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -509,8 +483,8 @@ body {
     padding: 41px 28px 33px 51px !important;
   }
 
-  .banner .banner-con, 
-  .banner2 .banner-con2{
+  .banner .banner-con,
+  .banner2 .banner-con2 {
     padding: 116px 20px 0px 35px;
     height: 75vh !important;
     width: 100% !important;
@@ -527,9 +501,7 @@ body {
     width: 100% !important;
   }
 
-
   /* --------Enrol Page--------- */
-
 
   .enrol {
     padding-right: 0px !important;
@@ -551,10 +523,6 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
-
-
-
-
 
   /* -----------TALENT PAGE-------------- */
 
@@ -649,14 +617,14 @@ body {
   .secure-con {
     width: 100% !important;
     border-radius: 0 !important;
-    padding: 0 !important; 
+    padding: 0 !important;
     margin-top: 0 !important;
   }
 
   .hire-con {
     width: 100% !important;
     border-radius: 0 !important;
-    padding: 0 !important; 
+    padding: 0 !important;
     margin-top: 0 !important;
   }
 
@@ -678,7 +646,6 @@ body {
     margin-bottom: 37px !important;
   }
 
-
   .call-btn {
     padding: 8px 19px !important;
     font-size: 9px !important;
@@ -694,8 +661,8 @@ body {
   }
 
   .s-wrap {
-  padding-bottom: 15px;
-}
+    padding-bottom: 15px;
+  }
 
   .under {
     width: 100% !important;
@@ -757,10 +724,9 @@ body {
     margin-top: 38px;
   }
 
+  /* --------BOOST PAGE ---------- */
 
-   /* --------BOOST PAGE ---------- */
-
-   .boost-sec {
+  .boost-sec {
     text-align: center;
   }
 
@@ -786,7 +752,7 @@ body {
     line-height: 27px;
     margin-bottom: 10px;
     max-width: 13em;
-    color: #4B1F5A;
+    color: #4b1f5a;
   }
 
   .boost-img {
@@ -834,9 +800,6 @@ body {
     max-width: 15em !important;
   }
 
-
-
-
   .who {
     text-align: center !important;
     padding-bottom: 1em !important;
@@ -862,7 +825,7 @@ body {
     width: 100% !important;
     margin-top: 2em !important;
   }
-  
+
   .why-t-img img {
     width: 95% !important;
     margin-top: 1.5em !important;
@@ -922,15 +885,9 @@ body {
   .left-con:hover {
     margin: 0 22px !important;
   }
-
 }
 
-
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
-
-
   .p-x-all {
     padding-left: 38px;
     padding-right: 38px;
@@ -949,7 +906,7 @@ body {
   .ts-p {
     font-size: 12px !important;
   }
-   
+
   .tss-p {
     font-size: 10px !important;
   }
@@ -999,12 +956,10 @@ body {
     font-size: 15px !important;
   }
 
-  
-
   /* ------------Data & Skills page -------------- */
 
   .banner2 .banner-con2 {
-   height: 420px !important;
+    height: 420px !important;
   }
 
   .banner .banner-con {
@@ -1040,7 +995,7 @@ body {
   .bss-p {
     font-size: 9px !important;
     margin-top: 0 !important;
-  } 
+  }
 
   .data-text {
     padding-left: 47px !important;
@@ -1053,7 +1008,6 @@ body {
   .data .d-header2 h6 {
     font-size: 27px !important;
   }
-
 
   /* -------------TALENT PAGE----------- */
 
@@ -1147,7 +1101,7 @@ body {
   .under2 {
     width: 63% !important;
   }
-  
+
   .call-btn {
     padding: 12px 27px !important;
   }
@@ -1223,7 +1177,7 @@ body {
   }
 
   .enrol-img img {
-    width: 96% !important;
+    width: 50% !important;
   }
 
   .form-sec .form-con form {
@@ -1264,18 +1218,6 @@ body {
     padding: 27px 14px 36px 20px !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /************** Talent section *************/
 .talent {
@@ -1786,7 +1728,6 @@ body {
   font-size: 16px;
 }
 
-
 @media (max-width: 992px) {
   .about-text {
     margin-left: 0 !important;
@@ -1804,8 +1745,6 @@ body {
   }
 }
 
-
-
 /* -----------box---------- */
 
 .box .box-sec {
@@ -1814,7 +1753,7 @@ body {
 }
 
 .box .box-con {
-  background: #F2D0FE;
+  background: #f2d0fe;
   padding: 26px;
   display: flex;
   justify-content: space-between;
@@ -1824,7 +1763,7 @@ body {
 }
 
 .box .box-con2 {
-  background: #F6F7EB;
+  background: #f6f7eb;
   padding: 26px;
   display: flex;
   justify-content: space-between;
@@ -1834,14 +1773,14 @@ body {
 }
 
 .box .svg-wrap {
-  background: #F6F7EB;
+  background: #f6f7eb;
   width: fit-content;
   padding: 10px;
   border-radius: 9px;
 }
 
 .box .svg-wrap2 {
-  background: #F8E2FF;
+  background: #f8e2ff;
   width: fit-content;
   padding: 10px;
   border-radius: 9px;
@@ -1879,7 +1818,7 @@ body {
 /* ----------courses------------ */
 
 .courses {
-  background: #FCF2FF;
+  background: #fcf2ff;
 }
 
 .courses .courses-sec {
@@ -1893,11 +1832,11 @@ body {
 .courses .courses-title h6 {
   font-size: 40px;
   font-weight: 700;
-  color: #431B51;
+  color: #431b51;
 }
 
 .courses .courses-title p {
-  color: #431B51;
+  color: #431b51;
   font-size: 17px;
 }
 
@@ -1909,8 +1848,8 @@ body {
   margin-right: 0;
 }
 
-.courses .col-box { 
-  background: #431B51;
+.courses .col-box {
+  background: #431b51;
   border-radius: 12px;
 }
 
@@ -1940,74 +1879,59 @@ body {
 }
 
 .courses .col-box .learn-btn {
-  background: #FFC608;
+  background: #ffc608;
   border: none;
-  color: #431B51;
+  color: #431b51;
   font-size: 15px;
   padding: 11px 22px;
   border-radius: 3px;
 }
 
-
 /* --------------Testimonial---------------- */
 
-.testimonial 
-.testimonial-con {
+.testimonial .testimonial-con {
   margin-top: 8em;
 }
 
-.testimonial 
-.testimonial-con
-.testimonial-tittle {
+.testimonial .testimonial-con .testimonial-tittle {
   text-align: center;
 }
 
-.testimonial 
-.testimonial-con
-.testimonial-tittle h5 {
-  background: #FFC608;
+.testimonial .testimonial-con .testimonial-tittle h5 {
+  background: #ffc608;
   padding: 9px 24px;
   display: inline-block;
   border-radius: 30px;
   font-size: 14px;
 }
 
-.testimonial 
-.testimonial-con
-.testimonial-tittle .text-p {
+.testimonial .testimonial-con .testimonial-tittle .text-p {
   font-size: 35px;
   font-weight: 700;
-  color: #431B51;
+  color: #431b51;
   margin-top: 12px;
 }
 
-.testimonial 
-.testimonial-con
-.testimonial-tittle p {
+.testimonial .testimonial-con .testimonial-tittle p {
   margin-bottom: 0;
 }
 
-.testimonial 
-.testimonial-sec img {
+.testimonial .testimonial-sec img {
   width: 60px;
 }
 
-.testimonial 
-.t-text h6{
+.testimonial .t-text h6 {
   font-size: 17px;
   font-weight: 700;
 }
 
-.testimonial 
-.t-text h5{
+.testimonial .t-text h5 {
   font-size: 15px;
   font-weight: 500;
 }
 
-.testimonial 
-.testimonial-sec
-.box-con {
-  background: #FCF2FF;
+.testimonial .testimonial-sec .box-con {
+  background: #fcf2ff;
   border-radius: 10px;
   padding: 23px;
   height: 375px;
@@ -2017,10 +1941,8 @@ body {
   justify-content: space-between;
 }
 
-.testimonial 
-.testimonial-sec
-.box-con p {
-  color: #5E2C6E;
+.testimonial .testimonial-sec .box-con p {
+  color: #5e2c6e;
   font-size: 17px;
   letter-spacing: 1px;
   line-height: 24px;
@@ -2030,8 +1952,6 @@ body {
 .svg-slide {
   display: none;
 }
-
-
 
 /* --------------------------------DATA PAGE-------------------------------------- */
 
@@ -2073,60 +1993,49 @@ body {
 }
 
 .data .data-con {
-  background: #F6F7EB;
+  background: #f6f7eb;
   height: 452px;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
-.data 
-.data-con
-.d-header {
+.data .data-con .d-header {
   text-align: center;
   padding-top: 35px;
 }
 
-.data 
-.data-con
-.d-header h6 {
-  color: #431B51;
+.data .data-con .d-header h6 {
+  color: #431b51;
   font-size: 35px;
   font-weight: 700;
 }
 
-.data 
-.data-con
-.data-row {
+.data .data-con .data-row {
   padding-left: 184px;
   padding-top: 61px;
 }
 
-.data 
-.data-con, .data-con2
-.d-text h6 {
+.data .data-con,
+.data-con2 .d-text h6 {
   font-size: 14px;
-  color: #5E2C6E;
+  color: #5e2c6e;
 }
 
-.data 
-.data-con, .data-con2
-.d-text p {
+.data .data-con,
+.data-con2 .d-text p {
   font-size: 22px;
-  color: #431B51;
+  color: #431b51;
   font-weight: 700;
-} 
+}
 
 .d-course {
   margin-top: -195px;
 }
 
-.d-course 
-.d-course-con{
+.d-course .d-course-con {
   padding: 48px 421px;
 }
 
-.d-course 
-.d-course-con
-.d-course-text h5 {
+.d-course .d-course-con .d-course-text h5 {
   color: #fff;
   font-size: 17px;
 }
@@ -2153,13 +2062,13 @@ body {
   margin-bottom: -22px;
 }
 
-.enrol-btn{
+.enrol-btn {
   display: block;
   width: fit-content;
   border: none;
   padding: 12px 25px;
-  background-color: #FFC608;
-  color: #431B51;
+  background-color: #ffc608;
+  color: #431b51;
   border-radius: 4px;
   font-size: 15px;
   text-decoration: none;
@@ -2167,11 +2076,9 @@ body {
 
 .d-course .d-course-body {
   padding: 48px 10px 16px 89px;
-  background-color: #431B51;
+  background-color: #431b51;
   border-radius: 8px;
 }
-
-
 
 /* -----------------------------------------SKILL PAGE---------------------------------------- */
 
@@ -2206,20 +2113,18 @@ body {
 }
 
 .data-con2 {
-  background: #F6F7EB;
+  background: #f6f7eb;
   height: 420px;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
-.data 
-.d-header2 {
+.data .d-header2 {
   text-align: center;
   padding-top: 50px;
 }
 
-.data 
-.d-header2 h6 {
-  color: #431B51;
+.data .d-header2 h6 {
+  color: #431b51;
   font-size: 35px;
   font-weight: 700;
 }
@@ -2233,10 +2138,10 @@ body {
   text-decoration: none;
 }
 
-.enrol-btn2{
+.enrol-btn2 {
   border: none;
   padding: 12px 25px;
-  background-color: #431B51;
+  background-color: #431b51;
   color: #fff;
   border-radius: 4px;
   font-size: 15px;
@@ -2244,26 +2149,28 @@ body {
   margin: 40px auto 0 auto;
 }
 
-
 /* ------------------Enrol Page------------------------- */
-
 .enrol {
   padding-right: 100px;
   padding-bottom: 70px;
 }
 
 .enrol-img img {
-  width: 70%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .form-sec h5 {
   font-size: 30px;
-  color: #431B51;
+  color: #431b51;
   font-weight: 700;
 }
 
-.form-label {  
- color: #431B51;
+.form-label {
+  margin-bottom: 1px !important;
+  color: #431b51;
 }
 
 .form-sec {
@@ -2272,30 +2179,39 @@ body {
 
 .form-control {
   border-radius: 3px;
-  border: 1px solid #6D2786;
+  border: 1px solid #6d2786;
+}
+
+input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+input::placeholder {
+  color: #bfbfbf !important;
+  font-size: 12px !important;
 }
 
 .form-select {
   border-radius: 3px;
-  border: 1px solid #6D2786;
+  border: 1px solid #6d2786;
 }
 
 .sub-btn {
   border: none;
   padding: 13px 20px;
   color: #fff;
-  background: #431B51;
+  background: #431b51;
   border-radius: 5px;
   font-size: 15px;
   width: 124px;
   margin-top: 35px;
 }
 
-
 option {
   background-color: #606060;
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
 }
 
@@ -2305,14 +2221,14 @@ option {
 
 .modal-body h6 {
   font-size: 1.4rem;
-  color: #431B51;
+  color: #431b51;
   font-weight: 600;
   margin-top: 20px;
 }
 
 .modal-body p {
   font-size: 15px;
-  color: #431B51;
+  color: #431b51;
   margin-top: 13px;
 }
 
@@ -2326,9 +2242,6 @@ option {
   padding: 10px 18px;
   border-radius: 4px;
 }
-
-
-
 
 /* --------------------------TALENT PAGE----------------------------- */
 
@@ -2379,10 +2292,10 @@ option {
 
 .hire-btn2 {
   padding: 12px 24px;
-  color: #431B51;
+  color: #431b51;
   background-color: #fff;
   border-radius: 0;
-  border: 1px solid #431B51;
+  border: 1px solid #431b51;
   font-size: 17px;
   margin-top: 18px;
   margin-left: 67px;
@@ -2390,10 +2303,10 @@ option {
 
 .why {
   margin-bottom: 4rem;
-} 
+}
 
 .why-wrapper {
-  background-color: #FCF3FF;
+  background-color: #fcf3ff;
   border-radius: 9px;
   padding-top: 70px;
 }
@@ -2415,7 +2328,7 @@ option {
 
 .why-header p {
   font-size: 13px;
-  color: #5E2C6E;
+  color: #5e2c6e;
   margin-top: 28px;
   max-width: 28%;
 }
@@ -2432,7 +2345,7 @@ option {
 }
 
 .box-wrapper2 {
-  background: #431B51;
+  background: #431b51;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2454,7 +2367,7 @@ option {
 }
 
 .svg-con {
-  background: #F6F7EB;
+  background: #f6f7eb;
   width: fit-content;
   padding: 10px;
   margin-bottom: 2em;
@@ -2462,7 +2375,7 @@ option {
 }
 
 .svg-con2 {
-  background: #F8E2FF;
+  background: #f8e2ff;
   width: fit-content;
   padding: 10px;
   margin-bottom: 2em;
@@ -2499,12 +2412,12 @@ option {
 }
 
 .btt-p {
-  color: #431B51;
+  color: #431b51;
   font-size: 15px;
 }
 
 .btt-p2 {
-  color: #431B51;
+  color: #431b51;
   font-weight: 600;
 }
 
@@ -2513,9 +2426,8 @@ option {
   padding-bottom: 5rem;
 }
 
-
 .details {
-  background-color: #431B51;
+  background-color: #431b51;
 }
 
 .details-con {
@@ -2538,7 +2450,6 @@ option {
   background-color: #562169;
   padding: 28px;
   border-radius: 10px;
-  width: 90%;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -2546,12 +2457,12 @@ option {
 .application-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .form-row {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .form-group {
@@ -2566,10 +2477,9 @@ label {
   color: #ddd;
 }
 
-
 input,
 button {
-  background-color: #6D2786;
+  background-color: #6d2786;
   color: #fff;
   margin-bottom: 7px;
 }
@@ -2586,7 +2496,7 @@ input:focus {
 }
 
 .submit-btn {
-  background-color: #431B51;
+  background-color: #431b51;
   cursor: pointer;
   transition: background-color 0.3s ease;
   padding: 11px 28px;
@@ -2613,24 +2523,23 @@ input:focus {
 }
 
 .call-btn {
-  background-color: #431B51;
+  background-color: #431b51;
   color: #fff;
   padding: 11px 27px;
 }
 
-
 .secure {
- background-color: #fff;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- padding-top: 60px;
- padding-bottom: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .secure-con {
-  background: #F6F7EB;
+  background: #f6f7eb;
   width: 55%;
   border-radius: 10px;
   padding: 58px 51px 13px 51px;
@@ -2641,7 +2550,7 @@ input:focus {
 }
 
 .hire-con {
-  background: #F6F7EB;
+  background: #f6f7eb;
   width: 55%;
   border-radius: 10px;
   padding: 58px 51px 13px 51px;
@@ -2658,12 +2567,12 @@ input:focus {
 .secure-header h6 {
   font-size: 30px;
   font-weight: 700;
-  color: #431B51;
+  color: #431b51;
 }
 
 .secure-header p {
   font-size: 15px;
-  color: #4B1F5A;
+  color: #4b1f5a;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -2697,7 +2606,7 @@ input:focus {
   height: 23px;
   z-index: 1;
   border-radius: 10px;
-  background: #6D2786;
+  background: #6d2786;
   margin-top: -7px;
 }
 
@@ -2732,7 +2641,7 @@ input:focus {
 
 .info-text h1 {
   font-size: 38px;
-  color: #431B51;
+  color: #431b51;
   font-weight: 700;
 }
 
@@ -2740,7 +2649,7 @@ input:focus {
   width: 80%;
   font-size: 17px;
   margin-top: 18px;
-  color: #4B1F5A;
+  color: #4b1f5a;
 }
 
 .contact-info {
@@ -2759,21 +2668,21 @@ input:focus {
 
 .con-p span {
   font-size: 14px;
-  color: #4B1F5A;
+  color: #4b1f5a;
 }
 
 .con-p p {
   width: 83%;
-} 
+}
 
 .con-p a {
   text-decoration: none;
-  color: #4B1F5A;
+  color: #4b1f5a;
 }
 
 .form-section {
   flex: 1;
-  background-color: #4B1F5A;
+  background-color: #4b1f5a;
   padding: 40px;
   color: #fff;
 }
@@ -2800,34 +2709,32 @@ label {
   margin-bottom: 5px;
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
   padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 1em;
 }
 
-
-input, textarea {
-  background-color: #6D2786;
+input,
+textarea {
+  background-color: #6d2786;
   color: #fff;
 }
 
 .send-btn {
   padding: 11px 28px;
   margin-top: 20px;
-  color: #431B51;
+  color: #431b51;
   color: #fff;
 }
-
-
-
-
 
 /* --------------------Workplace page------------ */
 
 .boost {
-  background-color: #FCEADE;
+  background-color: #fceade;
 }
 
 .boost-sec {
@@ -2869,7 +2776,6 @@ input, textarea {
   margin-top: 17px;
 }
 
-
 .boost-img img {
   width: 88%;
   object-fit: contain;
@@ -2883,7 +2789,6 @@ input, textarea {
   font-size: 17px;
   margin-top: 18px;
 }
-
 
 .why-con {
   padding: 34px;
@@ -2922,7 +2827,7 @@ input, textarea {
 }
 
 .why-svgs {
-  background: #F8E2FF;
+  background: #f8e2ff;
   width: fit-content;
   padding: 8px;
   border-radius: 5px;
@@ -2933,7 +2838,6 @@ input, textarea {
   width: 20px;
   height: 25px;
 }
-
 
 .solution {
   background: #ebe3ec;
@@ -2952,7 +2856,7 @@ input, textarea {
 .s-header h4 {
   font-size: 25px;
   font-weight: 600;
-  color: #431B51;
+  color: #431b51;
   padding-bottom: 64px;
 }
 
@@ -2967,22 +2871,22 @@ input, textarea {
 }
 
 .checkbox-group2 input {
-  background: #431B51;
+  background: #431b51;
 }
 
 .checkbox-group2 label {
-  color: #431B51;
+  color: #431b51;
 }
 
 .submit-btn2 {
-  background-color: #431B51;
+  background-color: #431b51;
   padding: 11px 28px;
   margin-top: 25px;
 }
 
 .why-form .form-control {
   border-radius: 3px;
-  border: 1px solid #6D2786;
+  border: 1px solid #6d2786;
   background: #ebe3ec;
 }
 
@@ -3001,10 +2905,6 @@ input, textarea {
   max-width: 24em;
 }
 
-
-
-
-
 /* .left-bubble span {
   background: #fff;
   padding: 6px 15px;
@@ -3021,11 +2921,6 @@ input, textarea {
   margin-bottom: 10px;
 } */
 
-
-
-
-
-
 /* -------------WHY PAGE--------- */
 
 .why-banner img {
@@ -3041,14 +2936,13 @@ input, textarea {
 
 .who h3 {
   font-weight: 700;
-  color: #431B51;
+  color: #431b51;
 }
 
 .who p {
   font-size: 14px;
-  color: #431B51;
+  color: #431b51;
 }
-
 
 .why-t {
   background: #f6f4f4;
@@ -3059,7 +2953,7 @@ input, textarea {
 }
 
 .why-t-text span {
-  background: #FFC608;
+  background: #ffc608;
   padding: 10px 15px;
   border-radius: 20px;
   font-size: 14px;
@@ -3068,13 +2962,13 @@ input, textarea {
 .why-t-text h3 {
   font-size: 30px;
   font-weight: 600;
-  color: #431B51;
+  color: #431b51;
   margin-top: 2em;
   width: 70%;
 }
 
 .why-t-text p {
-  color: #5E2C6E;
+  color: #5e2c6e;
   font-size: 13px;
   width: 71%;
   margin-top: 2em;
@@ -3086,7 +2980,7 @@ input, textarea {
 }
 
 .left-side {
-  background: #431B51;
+  background: #431b51;
   padding: 27px 5px 36px 20px;
 }
 
@@ -3118,24 +3012,22 @@ input, textarea {
 .left-con:hover {
   background: #fff;
   border-radius: 10px;
-  color: #431B51;
+  color: #431b51;
   margin-right: 13px;
 }
 
-.left-con:hover h6{
-  color: #431B51;
+.left-con:hover h6 {
+  color: #431b51;
 }
 
 .left-con:hover p {
-  color: #5E2C6E;
+  color: #5e2c6e;
 }
-
-
 
 .need {
   text-align: center;
   padding: 4em 0;
-  background: #FDF8FF;
+  background: #fdf8ff;
   margin: 6em 0;
 }
 
@@ -3152,19 +3044,18 @@ input, textarea {
   font-weight: 700;
   margin-bottom: 0;
   line-height: 1.5;
-
 }
 
 .need-text p {
   font-size: 13px;
-  color: #5E2C6E;
+  color: #5e2c6e;
   width: 32%;
   margin-top: 20px;
 }
 
 .need-text h5 {
   font-size: 14px;
-  color: #431B51;
+  color: #431b51;
   font-weight: 600;
   margin-top: 10px;
 }
@@ -3177,7 +3068,6 @@ input, textarea {
   font-size: 14px;
   margin-top: 35px;
 }
-
 
 .carousel {
   display: none;
