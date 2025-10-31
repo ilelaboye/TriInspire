@@ -27,172 +27,168 @@
     />
     <title>Tri-inspire</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <style>
+      input {
+        margin-bottom: 0;
+      }
+    </style>
   </head>
   <body>
     <div class="enrol">
-      <div class="row gx-2">
+      <div class="row g-4">
         <div class="col-md-6">
-          <div class="enrol-img">
-            <img src="./assets/img/Rectangle348.png" alt=""/>
+          <div class="enrol-img p-5">
+            <img src="./assets/img/Rectangle348.png" alt="" />
           </div>
         </div>
 
         <div class="col-md-6 ">
           <div class="form-sec">
-            <h5>
+            <h5 class="text-center">
               You are a step closer to <br />
               achieving your goal
             </h5>
             <div class="form-con">
-              <form>
-                <div class="">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="name" class="form-control" />
+              <form id="courseForm">
+                <div>
+                  <label for="firstname" class="form-label"
+                    >Firstname <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    name="firstname"
+                    class="form-control"
+                    placeholder="Enter Firstname"
+                  />
+                  <small class="text-danger" id="firstnameError"></small>
                 </div>
-                <div class="">
-                  <label for="number" class="form-label">Phone Number</label>
-                  <input type="phone number" class="form-control" />
+                <div>
+                  <label for="lastname" class="form-label"
+                    >Lastname <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    name="lastname"
+                    class="form-control"
+                    placeholder="Enter Lastname"
+                  />
+                  <small class="text-danger" id="lastnameError"></small>
                 </div>
-                <div class="">
+                <div>
                   <label for="exampleInputEmail1" class="form-label"
-                    >Email address</label
+                    >Email Address <span class="text-danger">*</span></label
                   >
                   <input
                     type="email"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    name="email"
+                    placeholder="Enter email address"
                   />
+                  <small class="text-danger" id="emailError"></small>
                 </div>
-
-                <label for="exampleInputEmail1" class="form-label"
-                  >What course do you want to apply for?</label
-                >
-                <select
-                  class="form-select form-select mb-2"
-                  aria-label=".form-select example"
-                >
-                  <option value="1">Select </option>
-                  <option value="2">Data Analytics with Excel (Virtual) -- #25,000</option>
-                  <option value="3">Data Analytics with Excel (Physical)-- #35,000</option>
-                  <option value="4">Data Analytics with PowerBi (Virtual) -- #20,000</option>
-                  <option value="5">Data Analytics with PowerBi (Physical)-- #35,000</option>
-                  <option value="6">Data Analytics with PostgreSQL (Virtual) -- #20,000</option>
-                  <option value="7">Data Analytics with PostgreSQL (Physical) -- #35,000</option>
-                  <option value="8">Full Data Analytics (Virtual) -- #70,000</option>
-                  <option value="9">Full Data Analytics (Physical) -- #100,000</option>
-                  <!-- <option value="6">Mobile App Development (Virtual) -- #100,000</option> -->
-                  <option value="10">Mobile App Development -- #150,000</option>
-                  <!-- <option value="7">Software Development -- #25,000</option> -->
-
-                  <!-- <option value="3">Data Analytics with Python</option>
-                  <option value="3">Communication Skill</option>
-                  <option value="3">Customer Service</option>
-                  <option value="3">Management Skill</option>
-                  <option value="3">Business Etiquette</option>
-                  <option value="3">Critical Thinking</option>
-                  <option value="3">Conflict Management</option> -->
-                </select>
-                <div class="">
+                <div>
+                  <label for="phone" class="form-label"
+                    >Phone Number <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    name="phone"
+                    class="form-control"
+                    placeholder="e.g 08123456789"
+                  />
+                  <small class="text-danger" id="phoneError"></small>
+                </div>
+                <div>
                   <label for="exampleInputEmail1" class="form-label"
-                  >What is your preferred learning method?</label
-                >
-                <select
-                  class="form-select form-select mb-2"
-                  aria-label=".form-select example"
-                >
-                  <option value="1">Select </option>
-                  <option value="2">Physical Classes</option>
-                  <option value="3">Virtual Classes</option>
-                </select>
+                    >Which course do you want to apply for
+                    <span class="text-danger">*</span></label
+                  >
+                  <select
+                    class="form-select"
+                    name="course"
+                    id="courseType"
+                    required
+                  >
+                    <option value="" disabled selected>Select course</option>
+                    <option value="data_analysis">Data analysis</option>
+                    <option value="mobile_app_development">
+                      Mobile App Development
+                    </option>
+                    <option value="sales_and_marketing">
+                      Sales and Marketing
+                    </option>
+                  </select>
+                  <small class="text-danger" id="courseTypeError"></small>
                 </div>
-                <section>
-                <label for="exampleInputEmail1" class="form-label"
-                  >Select Payment Method</label
-                >
-                <ul class="nav" id="pills-tab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link active"
-                      id="pills-home-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-home"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-home"
-                      aria-selected="true"
-                    >
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="exampleRadios"
-                          id="exampleRadios1"
-                          value="option1"
-                          checked
-                        />
-                        <label
-                          class="form-check-label ms-1 mt-1"
-                          for="exampleRadios1"
-                        >
-                          Make Payment
-                        </label>
-                      </div>
-                    </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link"
-                      id="pills-profile-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-profile"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-profile"
-                      aria-selected="false"
-                    >
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="exampleRadios"
-                          id="exampleRadios2"
-                          value="option2"
-                        />
-                        <label
-                          class="form-check-label ms-1 mt-1"
-                          for="exampleRadios2"
-                        >
-                          Student Loan
-                        </label>
-                      </div>
-                    </button>
-                  </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                   <div
-                    class="tab-pane fade show active form-label"
-                    id="pills-home"
-                    role="tabpanel"
-                    aria-labelledby="pills-home-tab"
+                <div>
+                  <label for="amount" class="form-label"
+                    >Amount <span class="text-danger">*</span></label
                   >
-                    <span class="mb"
-                      >Send the payment to the account number below</span
-                    >
-                    <br />
-                    <b>Account Name:</b> Buysimply-TRI INSPIRE
-                    <br />
-                    <b>Account Number:</b> 7857773380
-                    <br />
-                    <b>Bank:</b> Wema Bank
+                  <input
+                    type="text"
+                    name="amount"
+                    id="amountInput"
+                    class="form-control"
+                    readonly
+                  />
+                  <small class="text-danger" id="amountError"></small>
+                </div>
+                <div>
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Which class do you prefer
+                    <span class="text-danger">*</span></label
+                  >
+                  <select class="form-select" name="class_type" required>
+                    <option value="" disabled selected>Select class</option>
+                    <option value="physical">Physical</option>
+                    <option value="virtual">Virtual</option>
+                  </select>
+                  <small class="text-danger" id="classTypeError"></small>
+                </div>
 
-                    <div class="d-flex justify-content-center">
-                  <button
-                    type="button"
-                    class="sub-btn btn-secondary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
+                <div>
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Payment Type <span class="text-danger">*</span></label
                   >
+
+                  <select
+                    class="form-select"
+                    name="payment_type"
+                    id="paymentType"
+                    required
+                  >
+                    <option value="" disabled selected>
+                      Select payment type
+                    </option>
+                    <option value="transfer">Transfer</option>
+                    <option value="student_loan">Student Loan</option>
+                  </select>
+
+                  <small class="text-danger" id="paymentTypeError"></small>
+                </div>
+
+                <div id="transfer-info" style="display: none">
+                  <div>
+                    <p class="m-0">Kindly make payment into this account</p>
+                    <p class="m-0 fw-bold">
+                      Account Number: 12345678901 <br />
+                      Account name: Tri Inspire Tech Ltd <br />
+                      Bank: GTBank
+                    </p>
+                  </div>
+
+                  <div class="mt-2">
+                    <label for="receipt" class="form-label"
+                      >Upload Payment Receipt
+                      <span class="text-danger">*</span></label
+                    >
+                    <input type="file" class="form-control" name="receipt" />
+                    <small class="text-danger" id="receiptError"></small>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="button" class="sub-btn btn-secondary">
                     Submit
                   </button>
                 </div>
@@ -360,5 +356,140 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const courseSelect = document.getElementById("courseType");
+      const amountInput = document.getElementById("amountInput");
+
+      const coursePrices = {
+        data_analysis: 50000,
+        mobile_app_development: 70000,
+        sales_and_marketing: 60000,
+      };
+
+      courseSelect.addEventListener("change", function () {
+        const selectedCourse = this.value;
+
+        if (coursePrices[selectedCourse]) {
+          amountInput.value = coursePrices[selectedCourse];
+        } else {
+          amountInput.value = "";
+        }
+      });
+
+      const paymentDropdown = document.getElementById("paymentType");
+      const transferInfo = document.getElementById("transfer-info");
+
+      paymentDropdown.addEventListener("change", () => {
+        if (paymentDropdown.value === "transfer") {
+          transferInfo.style.display = "block";
+        } else {
+          transferInfo.style.display = "none";
+        }
+      });
+
+      document
+        .querySelector(".sub-btn")
+        .addEventListener("click", async function () {
+          let isValid = true;
+
+          function showError(field, message) {
+            document.getElementById(field + "Error").textContent = message;
+            isValid = false;
+          }
+
+          function clearError(field) {
+            document.getElementById(field + "Error").textContent = "";
+          }
+
+          const form = document.getElementById("courseForm");
+
+          const firstname = document
+            .querySelector('[name="firstname"]')
+            .value.trim();
+          const lastname = document
+            .querySelector('[name="lastname"]')
+            .value.trim();
+          const email = document.querySelector('[name="email"]').value.trim();
+          const phone = document.querySelector('[name="phone"]').value.trim();
+          const course = document.querySelector('[name="course"]').value;
+          const amount = document.getElementById("amountInput").value;
+          const classType = document.querySelector('[name="class_type"]').value;
+          const paymentType = document.querySelector(
+            '[name="payment_type"]'
+          ).value;
+          const receipt = document.querySelector('[name="receipt"]').files[0];
+
+          if (firstname === "") showError("firstname", "Firstname is required");
+          else clearError("firstname");
+
+          if (lastname === "") showError("lastname", "Lastname is required");
+          else clearError("lastname");
+
+          if (email === "") showError("email", "Email is required");
+          else if (!/^\S+@\S+\.\S+$/.test(email))
+            showError("email", "Invalid email format");
+          else clearError("email");
+
+          if (phone === "") showError("phone", "Phone number is required");
+          else if (!/^\d{11}$/.test(phone))
+            showError("phone", "Phone number must be 11 digits");
+          else clearError("phone");
+
+          if (!course) showError("courseType", "Please select a course");
+          else clearError("courseType");
+
+          if (!classType) showError("classType", "Please select class type");
+          else clearError("classType");
+
+          if (!paymentType)
+            showError("paymentType", "Please select payment type");
+          else clearError("paymentType");
+
+          if (paymentType === "transfer" && !receipt) {
+            showError("receipt", "please upload your payment receipt");
+          } else {
+            clearError("receipt");
+          }
+
+          if (!isValid) return;
+
+          const formData = new FormData();
+          formData.append("firstname", firstname);
+          formData.append("lastname", lastname);
+          formData.append("email", email);
+          formData.append("phone", phone);
+          formData.append("course", course);
+          formData.append("class_type", classType);
+          formData.append("payment_type", paymentType);
+          formData.append("amount", amount);
+          if (receipt) formData.append("receipt", receipt);
+
+          try {
+            const response = await fetch("http://127.0.0.1:8000/api/purchase", {
+              method: "POST",
+              body: formData,
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+              let modal = new bootstrap.Modal(
+                document.getElementById("exampleModal")
+              );
+              modal.show();
+
+              form.reset();
+              document.getElementById("transfer-info").style.display = "none";
+            } else {
+              Object.keys(data.errors).forEach((field) => {
+                showError(field, data.errors[field][0]);
+              });
+            }
+          } catch (error) {
+            alert("Something went wrong, please try again later.");
+          }
+        });
+    </script>
   </body>
 </html>

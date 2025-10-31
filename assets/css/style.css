@@ -894,7 +894,7 @@ body {
     border: 3px solid white;
     height: 191vh !important;
   }
-    .d-course .d-course-body {
+  .d-course .d-course-body {
     padding: 43px 10px 16px 18px;
   }
 }
@@ -1188,7 +1188,7 @@ body {
   }
 
   .enrol-img img {
-    width: 96% !important;
+    width: 50% !important;
     object-fit: cover !important;
   }
 
@@ -1230,6 +1230,7 @@ body {
     padding: 27px 14px 36px 20px !important;
   }
 }
+
 /************** Talent section *************/
 .talent {
   background-color: #fdf7ff;
@@ -2171,21 +2172,16 @@ body {
 }
 
 /* ------------------Enrol Page------------------------- */
-.bg {
-  border: 2px solid red;
-}
-.bgt {
-  border: 2px solid green;
-}
 .enrol {
   padding-right: 100px;
   padding-bottom: 70px;
 }
 
 .enrol-img img {
-  width: 70%;
-  height: fit-content;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  object-position: center;
 }
 
 .form-check-input:checked {
@@ -2217,8 +2213,8 @@ body {
 }
 
 .form-label {
+  margin-bottom: 1px !important;
   color: #431b51;
-  margin-bottom: 0rem !important;
 }
 
 .form-sec {
@@ -2228,6 +2224,16 @@ body {
 .form-control {
   border-radius: 3px;
   border: 1px solid #6d2786;
+}
+
+input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+input::placeholder {
+  color: #bfbfbf !important;
+  font-size: 12px !important;
 }
 
 .form-select {
@@ -2249,7 +2255,7 @@ body {
 option {
   background-color: #606060;
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
 }
 
@@ -2488,7 +2494,6 @@ option {
   background-color: #562169;
   padding: 28px;
   border-radius: 10px;
-  width: 90%;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -2496,12 +2501,12 @@ option {
 .application-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .form-row {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .form-group {
