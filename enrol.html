@@ -43,7 +43,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 ">
+        <div class="col-md-6">
           <div class="form-sec">
             <h5 class="text-center">
               You are a step closer to <br />
@@ -172,9 +172,9 @@
                   <div>
                     <p class="m-0">Kindly make payment into this account</p>
                     <p class="m-0 fw-bold">
-                      Account Number: 12345678901 <br />
-                      Account name: Tri Inspire Tech Ltd <br />
-                      Bank: GTBank
+                      Account Number: 7857773380 <br />
+                      Account name: Buysimply-TRI INSPIRE <br />
+                      Bank: Wema Bank
                     </p>
                   </div>
 
@@ -188,43 +188,43 @@
                   </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                  <button type="button" class="sub-btn btn-secondary">
+                  <button
+                    type="button"
+                    class="sub-btn btn-secondary"
+                    id="submit"
+                  >
                     Submit
                   </button>
                 </div>
-                  </div>
-                  
-                  <div
-                    class="tab-pane fade form-label"
-                    id="pills-profile"
-                    role="tabpanel"
-                    aria-labelledby="pills-profile-tab"
-                  >
-                    <span class="mb"
-                      >Click submit
-                      <!-- <a
+
+                <div
+                  class="tab-pane fade form-label"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  <span class="mb"
+                    >Click submit
+                    <!-- <a
                         href="https://checkout.credpal.com?key=9da31d92-5a5c-43d8-b20a-89efa3f154cf&method=payment_link"
                         target="_blank"
                         class="form-label"
                         >here</a
                       > -->
-                      to be redirected for <br /> more about the student loan.</span
-                    >
-                    <div class="d-flex justify-content-center">
-                  <button
-                    type="button"
-                    class="sub-btn btn-secondary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
+                    to be redirected for <br />
+                    more about the student loan.</span
                   >
-                    Submit
-                  </button>
-                </div>
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="sub-btn btn-secondary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Submit
+                    </button>
                   </div>
                 </div>
-                </section>
-
-                
               </form>
 
               <!-- Modal -->
@@ -256,9 +256,19 @@
                         Expect a call from one of our team members <br />within
                         the next 24 hours.
                       </p>
+                      <p id="LoanType" class="">
+                        Click on the below link to apply for loan
+                      </p>
                     </div>
                     <div class="modal-footer">
-                      <a href="./enrol.html">
+                      <a
+                        id="LoanType"
+                        href="https://checkout.credpal.com?key=9da31d92-5a5c-43d8-b20a-89efa3f154cf&method=payment_link"
+                        class="modal-btn btn-primary"
+                        >Apply For Loan</a
+                      >
+
+                      <a id="NotLoanType" href="./enrol.html">
                         <button type="button" class="modal-btn btn-primary">
                           Back to home page
                         </button>
@@ -466,14 +476,37 @@
           if (receipt) formData.append("receipt", receipt);
 
           try {
-            const response = await fetch("http://127.0.0.1:8000/api/purchase", {
-              method: "POST",
-              body: formData,
-            });
+            var getSubmit = document.getElementById("submit");
+            getSubmit.innerHTML = "Loading...";
+            getSubmit.disabled = true;
+
+            const response = await fetch(
+              "https://api.tri-inspire.com/api/purchase",
+              {
+                method: "POST",
+                body: formData,
+              }
+            );
 
             const data = await response.json();
-
+            var getSubmit = document.getElementById("submit");
+            getSubmit.innerHTML = "Submit";
+            getSubmit.disabled = false;
+            console.log("paymentType", paymentType);
             if (response.ok) {
+              if (paymentType == "student_loan") {
+                var loan = document.querySelectorAll("#LoanType");
+                loan.forEach(function (button) {
+                  button.style.display = "block";
+                });
+
+                document.getElementById("NotLoanType").style.display = "none";
+              } else {
+                var loan = document.querySelectorAll("#LoanType");
+                loan.forEach(function (button) {
+                  button.style.display = "none";
+                });
+              }
               let modal = new bootstrap.Modal(
                 document.getElementById("exampleModal")
               );
