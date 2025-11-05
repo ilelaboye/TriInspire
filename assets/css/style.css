@@ -919,7 +919,22 @@ body {
     padding: 43px 10px 16px 18px;
   }
   .courses .col-box .col-con {
-    height: 650px !important;
+    height: 728px !important;
+  }
+}
+@media (max-width: 820px) {
+  .courses .col-box .col-con {
+    height: 755px !important;
+  }
+}
+@media (max-width: 912px) {
+  .courses .col-box .col-con {
+    height: 755px !important;
+  }
+}
+@media (min-width: 1022px) and (max-width: 1024px) {
+  .courses .col-box .col-con {
+    height: 702px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
