@@ -918,6 +918,9 @@ body {
   .d-course .d-course-body {
     padding: 43px 10px 16px 18px;
   }
+  .courses .col-box .col-con {
+    height: 650px !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .p-x-all {
@@ -969,9 +972,6 @@ body {
 
   .courses .col-box .col-con {
     padding: 20px !important;
-  }
-  .courses .col-box .col-con {
-    height: 633px !important;
   }
 
   .courses .col-box .col-con p {
