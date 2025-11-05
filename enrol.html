@@ -111,14 +111,30 @@
                     required
                   >
                     <option value="" disabled selected>Select course</option>
-                    <option value="excel_data_analysis_physical">Data analytics with Excel (Physical)</option>
-                    <option value="excel_data_analysis_virtual">Data analytics with Excel (virtual)</option>
-                    <option value="power_bi_data_analysis_physical">Data analytics with power BI (Physical) </option>
-                    <option value="power_bi_data_analysis_virtual">Data analytics with power BI (Virtual) </option>
-                    <option value="sql_data_analysis_physical">Data analytics with PostgreSQL (Physical) </option>
-                    <option value="sql_data_analysis_virtual">Data analytics with PostgreSQL (Virtual) </option>
-                    <option value="full_data_analysis_physical">Full Data analytics (Physical) </option>
-                    <option value="full_data_analysis_virtual">Full Data analytics (Virtual) </option>
+                    <option value="excel_data_analysis_physical">
+                      Data analytics with Excel (Physical)
+                    </option>
+                    <option value="excel_data_analysis_virtual">
+                      Data analytics with Excel (virtual)
+                    </option>
+                    <option value="power_bi_data_analysis_physical">
+                      Data analytics with power BI (Physical)
+                    </option>
+                    <option value="power_bi_data_analysis_virtual">
+                      Data analytics with power BI (Virtual)
+                    </option>
+                    <option value="sql_data_analysis_physical">
+                      Data analytics with PostgreSQL (Physical)
+                    </option>
+                    <option value="sql_data_analysis_virtual">
+                      Data analytics with PostgreSQL (Virtual)
+                    </option>
+                    <option value="full_data_analysis_physical">
+                      Full Data analytics (Physical)
+                    </option>
+                    <option value="full_data_analysis_virtual">
+                      Full Data analytics (Virtual)
+                    </option>
                     <option value="mobile_app_development_physical">
                       Mobile App Development (Physical)
                     </option>
@@ -438,7 +454,7 @@
           const phone = document.querySelector('[name="phone"]').value.trim();
           const course = document.querySelector('[name="course"]').value;
           const amount = document.getElementById("amountInput").value;
-          const classType = document.querySelector('[name="class_type"]').value;
+          // const classType = document.querySelector('[name="class_type"]').value;
           const paymentType = document.querySelector(
             '[name="payment_type"]'
           ).value;
@@ -463,8 +479,8 @@
           if (!course) showError("courseType", "Please select a course");
           else clearError("courseType");
 
-          if (!classType) showError("classType", "Please select class type");
-          else clearError("classType");
+          // if (!classType) showError("classType", "Please select class type");
+          // else clearError("classType");
 
           if (!paymentType)
             showError("paymentType", "Please select payment type");
@@ -484,7 +500,7 @@
           formData.append("email", email);
           formData.append("phone", phone);
           formData.append("course", course);
-          formData.append("class_type", classType);
+          formData.append("class_type", "none");
           formData.append("payment_type", paymentType);
           formData.append("amount", amount);
           if (receipt) formData.append("receipt", receipt);
