@@ -38,7 +38,7 @@
     <div class="enrol">
       <div class="row g-4">
         <div class="col-md-6">
-          <div class="enrol-img px-1">
+          <div class="enrol-img p-5">
             <img src="./assets/img/Rectangle348.png" alt="" />
           </div>
         </div>
@@ -138,8 +138,8 @@
                     <option value="mobile_app_development_physical">
                       Mobile App Development (Physical)
                     </option>
-                    <option value="sales_and_marketing_virtual">
-                      Mobile App Development (Virtual)
+                    <option value="sales_and_marketing">
+                      Sales and Marketing
                     </option>
                   </select>
                   <small class="text-danger" id="courseTypeError"></small>
@@ -157,7 +157,7 @@
                   />
                   <small class="text-danger" id="amountError"></small>
                 </div>
-                <!-- <div>
+                <div>
                   <label for="exampleInputEmail1" class="form-label"
                     >Which class do you prefer
                     <span class="text-danger">*</span></label
@@ -168,7 +168,7 @@
                     <option value="virtual">Virtual</option>
                   </select>
                   <small class="text-danger" id="classTypeError"></small>
-                </div> -->
+                </div>
 
                 <div>
                   <label for="exampleInputEmail1" class="form-label"
@@ -395,16 +395,9 @@
       const amountInput = document.getElementById("amountInput");
 
       const coursePrices = {
-        excel_data_analysis_physical: 35000,
-        excel_data_analysis_virtual: 25000,
-        power_bi_data_analysis_physical: 35000,
-        power_bi_data_analysis_virtual: 25000,
-        sql_data_analysis_physical: 35000,
-        sql_data_analysis_virtual: 25000,
-        full_data_analysis_physical: 100000,
-        full_data_analysis_virtual: 70000,
-        mobile_app_development_physical: 150000,
-        sales_and_marketing_virtual: 125000,
+        data_analysis: 50000,
+        mobile_app_development: 70000,
+        sales_and_marketing: 60000,
       };
 
       courseSelect.addEventListener("change", function () {
